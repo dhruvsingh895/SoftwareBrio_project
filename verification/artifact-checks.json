@@ -1,0 +1,94 @@
+{
+  "test_count": 67,
+  "all_tests_passed": true,
+  "batches": [
+    {
+      "directory": "output",
+      "all_records_valid": true,
+      "checks": [
+        {
+          "domain": "postman.com",
+          "schema_valid": true,
+          "record_matches_summary": true,
+          "clean_context_chars": 7460,
+          "pages": 6,
+          "attempts": 8,
+          "actual_llm_calls": 1,
+          "token_usage": {
+            "input_tokens": 2760,
+            "output_tokens": 357
+          },
+          "two_sentence_overview": true,
+          "literal_entity_evidence_valid": true,
+          "associated_site_profiles": 3,
+          "search_statuses": []
+        },
+        {
+          "domain": "supabase.com",
+          "schema_valid": true,
+          "record_matches_summary": true,
+          "clean_context_chars": 6345,
+          "pages": 6,
+          "attempts": 8,
+          "actual_llm_calls": 1,
+          "token_usage": {
+            "input_tokens": 2322,
+            "output_tokens": 239
+          },
+          "two_sentence_overview": true,
+          "literal_entity_evidence_valid": true,
+          "associated_site_profiles": 0,
+          "search_statuses": [
+            "blocked"
+          ]
+        },
+        {
+          "domain": "vapi.ai",
+          "schema_valid": true,
+          "record_matches_summary": true,
+          "clean_context_chars": 7423,
+          "pages": 4,
+          "attempts": 8,
+          "actual_llm_calls": 1,
+          "token_usage": {
+            "input_tokens": 2678,
+            "output_tokens": 142
+          },
+          "two_sentence_overview": true,
+          "literal_entity_evidence_valid": true,
+          "associated_site_profiles": 0,
+          "search_statuses": []
+        }
+      ]
+    },
+    {
+      "directory": "output-agentic",
+      "all_records_valid": true,
+      "checks": [
+        {
+          "domain": "postman.com",
+          "schema_valid": true,
+          "record_matches_summary": true,
+          "clean_context_chars": 7336,
+          "pages": 6,
+          "attempts": 8,
+          "actual_llm_calls": 5,
+          "token_usage": {
+            "input_tokens": 8901,
+            "output_tokens": 532
+          },
+          "two_sentence_overview": true,
+          "literal_entity_evidence_valid": true,
+          "associated_site_profiles": 3,
+          "search_statuses": []
+        }
+      ]
+    }
+  ],
+  "live_llm_extraction_verified": true,
+  "provider": "nvidia",
+  "free_tier_only": true,
+  "live_agentic_verified": true,
+  "navigation_calls": 4,
+  "live_linkedin_search": "Supabase lookup blocked by DuckDuckGo; no profile guessed"
+}

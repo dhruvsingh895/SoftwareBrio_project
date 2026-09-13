@@ -1,0 +1,160 @@
+PAGE: https://supabase.com/company
+TITLE: One of the world's fastest-growing open source communities | Supabase
+Emails observed on this page: 
+LinkedIn URLs observed on this page (not proof of person/profile association): 
+TEXT:
+Press
+ARTICLE
+PODCAST
+Team
+Build in a weekend, scale to millions
+Join one of the world's fastest growing open source communities.
+10,000,000+
+Registered developers
+100,000+
+GitHub stars
+200,000+
+Followers
+50,000+
+SupaTroopers
+With developer signups from the world's leading brands.
+Supabase Select 2026 is coming October 2
+Apply to attend
+
+PAGE: https://supabase.com/contact/sales
+TITLE: Contact Sales & Request a Demo | Supabase
+Emails observed on this page: 
+LinkedIn URLs observed on this page (not proof of person/profile association): 
+TEXT:
+Talk to our Sales team
+Book a demo and set up a trial Enterprise account to see how Supabase's scalable features can accelerate your business growth and app development.
+Contact support if you need technical help
+Supabase Select 2026 is coming October 2
+Apply to attend
+
+PAGE: https://supabase.com/contact-us
+TITLE: Contact Us | Supabase
+Emails observed on this page: abuse@supabase.com, help-events@supabase.com, legal@supabase.com, privacy@supabase.com, security@supabase.com
+LinkedIn URLs observed on this page (not proof of person/profile association): 
+TEXT:
+Legal
+Contact Us
+Need help? Want to report something? Have a legal question?
+Use the right channel below so we can get you to the right team quickly.
+Privacy
+privacy@supabase.com
+For questions about personal data, data subject rights requests, GDPR/CCPA inquiries, or how Supabase processes personal information.
+Abuse & Acceptable Use
+abuse@supabase.com
+To report suspected violations of our Acceptable Use Policy, including spam, phishing, malware, or unlawful activity involving Supabase services.
+Security
+security@supabase.com
+To responsibly disclose potential security vulnerabilities or report suspected security incidents involving Supabase infrastructure or services.
+Events
+help-events@supabase.com
+For hackathon or event sponsorship requests. While we can't sponsor every event, we'd love to hear about yours. We'll follow up if it's a good fit.
+Grievance Officer
+Attn: Tracy Lane
+In jurisdictions that require the designation of a Grievance Officer or similar compliance contact, Tracy Lane, General Counsel of Supabase, Inc., serves in that role. Formal complaints, regulatory inquiries, or legally required grievance submissions may be directed to the email above.
+Supabase will acknowledge receipt of grievances and respond within the timeframe required by applicable law.
+
+PAGE: https://supabase.com/
+TITLE: Supabase | The Postgres Development Platform OpenAI logo Hugging Face logo
+Emails observed on this page: 
+LinkedIn URLs observed on this page (not proof of person/profile association): 
+TEXT:
+Build in a weekend Scale to millions
+Postgres Database
+Stay productive and manage your app without leaving the dashboard
+Use Supabase with React
+Kickstart your next project with production ready templates
+How industry leaders are building with Supabase
+Build in a weekend, scale to millions
+Build in a weekendScale to millions
+Start your project with a Postgres database. Add Authentication, Data APIs, Edge Functions, Realtime Data, Storage, and Vector embeddings.
+Stay productive and manage your app
+without leaving the dashboard
+Kickstart your next project
+with production ready templates
+View all examples
+Stripe Subscriptions Starter
+The all-in-one subscription starter kit for high-performance SaaS applications, powered by Stripe, Supabase, and Vercel.
+Next.js Starter
+A Next.js App Router template configured with cookie-based auth using Supabase, TypeScript and Tailwind CSS.
+AI Chatbot
+An open-source AI chatbot app template built with Next.js, the Vercel AI SDK, OpenAI, and Supabase.
+LangChain + Next.js Starter
+Starter template and example use-cases for LangChain projects in Next.js, including chat, agents, and retrieval.
+Flutter User Management
+Get started with Supabase and Flutter by building a user management app with auth, file storage, and database.
+Expo React Native Starter
+An extended version of
+
+PAGE: https://supabase.com/careers
+TITLE: Careers | Supabase
+Emails observed on this page: 
+LinkedIn URLs observed on this page (not proof of person/profile association): 
+TEXT:
+Supabase Careers
+We work together, wherever we are
+1,500+ Contributors building Supabase
+Product
+Product Manager - Marketplace
+Product Manager - Security & Trust (EMEA/AMER)
+Product Lead - Infrastructure
+Product Manager - Branching
+Product Manager - Strategic Partner Integrations (Bay Area based)
+Success
+Customer Solution Architect (AMER)
+Customer Solution Architect, Team Lead
+Partner Solution Architect (AWS)
+Pre-Sales Solutions Architect (SA) Leader
+Technical Account Management (TAM) Leader
+Support
+Support Engineer (EMEA)
+Support Engineer (AMER)
+Support Engineer (APAC)
+Support Engineer (AMER - Weekends)
+Support Engineer (EMEA - Weekends)
+Database Support Engineer (AMER)
+Database Support Engineer (EMEA)
+Database Support Engineer (APAC)
+Engineering
+Multigres Engineer
+Postgres Engineer
+Multigres Deployment Engineer
+Postgres Deployment Engineer (Nix)
+Software Engineer - Auth
+Software Engineer: IaC Platform Experience
+Edge Functions Engineer
+OrioleDB Developer
+Engineering Manager
+Site Reliability Engineer
+API Engineer
+Supalite Engineer
+Release Engineer
+Performance Engineer - Performance Analysis & Tuning
+Performance Engineer - Benchmarking
+Engineering Productivity Engineer
+Frontend Engineer
+SDK Engineer - JavaScript
+Platform Engineer - Compute Capacity
+Software Engineer - Branching
+Platform Security Engineer
+
+PAGE: https://supabase.com/support
+TITLE: Help & Support | Supabase
+Emails observed on this page: 
+LinkedIn URLs observed on this page (not proof of person/profile association): 
+TEXT:
+Support
+Hello, how can we help?
+Community support
+Our Discord community can help with code-related issues. Many questions are answered in minutes.
+Issues
+Found a bug? We’d love to hear about it in our GitHub issues.
+Feature requests
+Want to suggest a new feature? Share it with us on GitHub discussions.
+Can’t find what you’re looking for?
+The Supabase Support Team is ready to help.
+Response time for support tickets will vary depending on plan type and severity of the issue.

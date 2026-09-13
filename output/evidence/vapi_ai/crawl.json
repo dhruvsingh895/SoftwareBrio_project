@@ -1,0 +1,683 @@
+{
+  "status": "completed",
+  "attempted_urls": [
+    "https://vapi.ai/",
+    "https://vapi.ai/sales",
+    "https://vapi.ai/pricing",
+    "https://vapi.ai/careers",
+    "https://vapi.ai/about",
+    "https://vapi.ai/about-us",
+    "https://vapi.ai/company",
+    "https://vapi.ai/team"
+  ],
+  "robots": {
+    "https://vapi.ai": {
+      "url": "https://vapi.ai/robots.txt",
+      "status": 200,
+      "policy": "parsed",
+      "text": "User-agent: *\nAllow: /\nDisallow: /keystatic/\n\n# Allow all bots to crawl the main site, but disallow the admin area\n# This ensures search engines can index all public content\n\nSitemap: https://vapi.ai/sitemap.xml"
+    }
+  },
+  "pages": [
+    {
+      "url": "https://vapi.ai/",
+      "title": "Vapi - Build Advanced Voice AI Agents",
+      "text": "Voice agents for builders\n\"When Ring customers call in, they expect fast, high-quality support. We went from zero to production in two weeks, and 100% of our inbound volume now runs through Vapi. Most importantly, we've maintained our high bar of support for our customers and CSAT scores have improved.\"\nJason Mitura\nVP of Software Development\nTrusted at enterprise scale\nUnified Platform\nOne platform for all your voice agents.\nOrchestration, real-time monitoring, and enterprise-grade configurability built for scale.\nBuild, test, and deploy in minutes.\nConfigure everything from voice and conversation flow, to telephony and integrations. Vapi handles the infrastructure so you can go from prompt to production fast.\nShip better agents. Faster. Every time.\nTrack what's working across every call, surface what isn't, and continuously improve the experiences that drive your business forward.\nHear for yourself\nIntegrations\nAPI-native by design\nBuilt for Enterprises\nEnterprise-ready capabilities\nEverything a Fortune 100 needs to deploy at scale\nSupport SLA\nContractual uptime and performance guarantees, with reserved capacity sized to your volume.\nDedicated Deployment Support\nA dedicated engineer embedded in your team to get you live in a week.\nSSO, OAuth, and RBAC\nEnterprise sign-on, OAuth2 for secure integrations, and granular access controls.\nScalable Infrastructure\nScale up to millions of calls with sub-500ms latency.\nAI Guardrails\nBuilt-in conversation guardrails prevent model hallucinations and ensure data integrity.\nSOC 2, HIPAA, and PCI compliant\nBuild agents that meet the standards your business runs on.\nLeading Latin American Automotive Marketplace\n\"We reached profitability in Mexico due to this transformation. We're serving twice the customers we were before... and we did this while focusing on the most important part that was the level of service and the experience that our customers were having.\"\nAlejandro Maza,Chief Product & AI Officer, Kavak\nEveryday Calls. Extraordinary Outcomes.\n1 Billion\ncalls supported\n99.9%\nuptime for enterprise clients\n2.5M+\nagents launched\n1M+\ndevelopers\n<500ms\naverage latency",
+      "emails": [],
+      "linkedin_urls": [
+        "https://www.linkedin.com/company/vapi-ai"
+      ],
+      "links": [
+        {
+          "url": "#main-content",
+          "text": "Skip to main content",
+          "rel": ""
+        },
+        {
+          "url": "https://www.vapicon.ai/",
+          "text": "Register Now",
+          "rel": ""
+        },
+        {
+          "url": "https://www.vapicon.ai/",
+          "text": "Vapicon 2026 is coming",
+          "rel": ""
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "/customers",
+          "text": "Customers",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "https://dashboard.vapi.ai/login",
+          "text": "Login",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://dashboard.vapi.ai/register",
+          "text": "Get started",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://dashboard.vapi.ai/register",
+          "text": "Get started",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/sales",
+          "text": "Contact sales",
+          "rel": ""
+        },
+        {
+          "url": "/platform",
+          "text": "Learn how",
+          "rel": ""
+        },
+        {
+          "url": "#",
+          "text": "Explore the Vapi platform",
+          "rel": ""
+        },
+        {
+          "url": "/customers",
+          "text": "Read case study",
+          "rel": ""
+        },
+        {
+          "url": "/customers",
+          "text": "5X   revenue growth, 250k monthly calls Read the case study Healthcare",
+          "rel": ""
+        },
+        {
+          "url": "/customers",
+          "text": "1M+   calls per month across dozens of use cases. Read the case study Marketplace Staffing",
+          "rel": ""
+        },
+        {
+          "url": "https://www.vapicon.ai/",
+          "text": "The frontier voice AI summit · Nov 11–12 Get tickets →",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://docs.vapi.ai/",
+          "text": "Docs",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/platform",
+          "text": "Platform",
+          "rel": ""
+        },
+        {
+          "url": "https://security.vapi.ai/",
+          "text": "Security",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "/community",
+          "text": "Community",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/partnerships",
+          "text": "Partnerships",
+          "rel": ""
+        },
+        {
+          "url": "https://docs.vapi.ai/support",
+          "text": "Contact",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/privacy",
+          "text": "Privacy Policy",
+          "rel": ""
+        },
+        {
+          "url": "/terms-of-service",
+          "text": "Terms of Service",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/VapiAI",
+          "text": "",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://www.linkedin.com/company/vapi-ai",
+          "text": "",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/Vapi_AI",
+          "text": "",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "profile_evidence": [],
+      "excluded_sections": []
+    },
+    {
+      "url": "https://vapi.ai/sales",
+      "title": "Contact Sales - VAPI Close this dialog Close Cookie Preferences",
+      "text": "Talk to a Voice AI expert\nSchedule a Demo\nTalk to a\nVoice AI expert\nVapi Scale is built for teams that need reliability, scale, and support.\n- Custom real-time audio infrastructure with 99.9% uptime.\n- Scale to millions of calls with sub-500ms latency.\n- Conversational guardrails to keep you and your customers safe.\n- SOC2, HIPAA, & PCI compliant\nTrusted at enterprise scale",
+      "emails": [],
+      "linkedin_urls": [
+        "https://www.linkedin.com/company/vapi-ai"
+      ],
+      "links": [
+        {
+          "url": "https://vapi.ai/privacy",
+          "text": "Privacy Policy",
+          "rel": "noopener"
+        },
+        {
+          "url": "#main-content",
+          "text": "Skip to main content",
+          "rel": ""
+        },
+        {
+          "url": "https://www.vapicon.ai/",
+          "text": "Register Now",
+          "rel": ""
+        },
+        {
+          "url": "https://www.vapicon.ai/",
+          "text": "Vapicon 2026 is coming",
+          "rel": ""
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "/customers",
+          "text": "Customers",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "https://dashboard.vapi.ai/login",
+          "text": "Login",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://dashboard.vapi.ai/register",
+          "text": "Get started",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://www.vapicon.ai/",
+          "text": "The frontier voice AI summit · Nov 11–12 Get tickets →",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://docs.vapi.ai/",
+          "text": "Docs",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/platform",
+          "text": "Platform",
+          "rel": ""
+        },
+        {
+          "url": "https://security.vapi.ai/",
+          "text": "Security",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "/community",
+          "text": "Community",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/partnerships",
+          "text": "Partnerships",
+          "rel": ""
+        },
+        {
+          "url": "https://docs.vapi.ai/support",
+          "text": "Contact",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/privacy",
+          "text": "Privacy Policy",
+          "rel": ""
+        },
+        {
+          "url": "/terms-of-service",
+          "text": "Terms of Service",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/VapiAI",
+          "text": "",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://www.linkedin.com/company/vapi-ai",
+          "text": "",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/Vapi_AI",
+          "text": "",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "profile_evidence": [],
+      "excluded_sections": []
+    },
+    {
+      "url": "https://vapi.ai/pricing",
+      "title": "Vapi - Build Advanced Voice AI Agents Close this dialog Close Cookie Preferences",
+      "text": "Compare Features\nFrequently asked questions\nPricing\nSimple, scalable pricing\nBuild\nUsage based\nUsage-based call minutes (60+ minutes included). Model costs are passed on to customer.\n10 call concurrency ($10 per line/month)\nEmail + Discord community support\nCustom voices and model access\nHIPAA at $2K/month\nZero Data Retention at $1K/month\nScale\nAnnual Contract\nFixed Platform fee and committed volume\nVolume-based per minute pricing\nEnterprise grade\nSOC 2, HIPAA, PCI, SSO, RBAC\nData residency\nPriority model and provider access\nSupport SLA\nDedicated account team\nTrusted at enterprise scale\nCompare\nFeatures\nGet started\nUsage and Scale\n| Call Minutes | |\n|---|---|\n| Build | Scale |\n| Usage based | Custom |\n| Call Concurrency | |\n| 10 included + $10 / line / mo | Custom |\nVapi Hosting Cost\nExcludes Model Provider Costs\n| Calls | |\n| $0.05 / min | Volume based |\n| SMS/Chat | |\n| $0.005 / msg | Volume based |\nModel Provider Cost (STT, LLM, TTS)\n| At cost ($0 if you bring your own API key) | |\nChannels\nData Retention\n| Call history | |\n| 14 days | Custom |\n| Chat history | |\n| 30 days | Custom |\nSecurity and Compliance\n| SSO | |\n| - | |\n| RBAC | |\n| SOC2 | |\n| Add-on: HIPAA | |\n| $2000/mo | $2000/mo |\n| Add-on: Zero Data Retention | |\n| $1000/mo | $1000/mo |\nReliability and Support\n| Infra SLA | |\n| - | Enterprise-grade uptime |\n| Support SLA | |\n| - | Custom Support SLA |\n| Named Support Engineer | |\n| Account Manager | |\n| Priority Support | |\n| Support | |\n| Community Discord, Email | Dedicated account team |\nUsage calculator\nEstimate your cost\nVapi HostingContainer hosting for your Vapi agents$0.05 / min\nTotal Monthly Cost$50.00",
+      "emails": [],
+      "linkedin_urls": [
+        "https://www.linkedin.com/company/vapi-ai"
+      ],
+      "links": [
+        {
+          "url": "https://vapi.ai/privacy",
+          "text": "Privacy Policy",
+          "rel": "noopener"
+        },
+        {
+          "url": "#main-content",
+          "text": "Skip to main content",
+          "rel": ""
+        },
+        {
+          "url": "https://www.vapicon.ai/",
+          "text": "Register Now",
+          "rel": ""
+        },
+        {
+          "url": "https://www.vapicon.ai/",
+          "text": "Vapicon 2026 is coming",
+          "rel": ""
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "/customers",
+          "text": "Customers",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "https://dashboard.vapi.ai/login",
+          "text": "Login",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://dashboard.vapi.ai/register",
+          "text": "Get started",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://dashboard.vapi.ai/",
+          "text": "Get started",
+          "rel": ""
+        },
+        {
+          "url": "/sales",
+          "text": "Contact us",
+          "rel": ""
+        },
+        {
+          "url": "https://dashboard.vapi.ai/",
+          "text": "Get started",
+          "rel": "noopener"
+        },
+        {
+          "url": "/sales",
+          "text": "Contact us",
+          "rel": ""
+        },
+        {
+          "url": "https://dashboard.vapi.ai/",
+          "text": "Get started",
+          "rel": "noopener"
+        },
+        {
+          "url": "/sales",
+          "text": "Contact us",
+          "rel": ""
+        },
+        {
+          "url": "https://www.vapicon.ai/",
+          "text": "The frontier voice AI summit · Nov 11–12 Get tickets →",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://docs.vapi.ai/",
+          "text": "Docs",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/platform",
+          "text": "Platform",
+          "rel": ""
+        },
+        {
+          "url": "https://security.vapi.ai/",
+          "text": "Security",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "/community",
+          "text": "Community",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/partnerships",
+          "text": "Partnerships",
+          "rel": ""
+        },
+        {
+          "url": "https://docs.vapi.ai/support",
+          "text": "Contact",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/privacy",
+          "text": "Privacy Policy",
+          "rel": ""
+        },
+        {
+          "url": "/terms-of-service",
+          "text": "Terms of Service",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/VapiAI",
+          "text": "",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://www.linkedin.com/company/vapi-ai",
+          "text": "",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/Vapi_AI",
+          "text": "",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "profile_evidence": [],
+      "excluded_sections": []
+    },
+    {
+      "url": "https://vapi.ai/careers",
+      "title": "VAPI - Careers Close this dialog Close Cookie Preferences",
+      "text": "Member of Technical Staff, Backend\nMember of Technical Staff, Infrastructure\nEnterprise Account Executive\nSales Development Representative (SDR)\nMid Market Account Executive\nWant to be the change in voice technology?\nBuild the future of voice\nVapi is where bleeding-edge tech, brilliant minds, and relentless execution come together to shape voice as humanity's next interface.\nOperating Principles\nHow we work, how we make decisions, and how we treat each other.\nBuild something worthy of love.\nCraft is how we love our customers, and how we make a life of work worth living. Things that merely work are the floor. We are here to make things people love.\nCommit and follow through.\nWe finish what we start. The hardest thing at a company is being someone people can count on. We choose to be that.\nWhy not today?\nThe things that delight customers usually don’t take long. Find the path that unlocks value today.\nSeek raw input.\nDashboards, summaries, and second-hand accounts are surface level. Go to the source– customers and each other– and dig until something amazing shows up. That’s where real value is created.\nIt’s our problem.\nWhen something goes wrong, no one stands alone. The team owns it– we share credit freely, have each other’s backs and treat mistakes as ours to learn from.\nBe direct and kind.\nWe choose to share feedback regularly, directly, warmly, without delay, and trust each other to hear it.\nOpen positions\nFeatured roles\nBENEFITS\nOur benefits package is designed to power a high-performing team of tireless builders\nFull stack health\nFull health, vision, and dental insurance to keep you and your family well cared for.\nTime to recharge\nTake the time you need with Unlimited PTO, with an encouraged four weeks off to rest, reset, and build.\nEveryday boosts\nGenerous programs that support commuter costs, dependent care needs, and fitness memberships.\nAll-inclusive HQ\nLaptop on us, catered meals, stocked kitchens, and pets welcome—everything you need to do your best work.\nInvest in your future\nMeaningful equity and a 401(k) plan so you can grow your financial future as you help grow the company.\nLevel-up budget\n$10,000 annual Learning & Development program to invest in your personal development.",
+      "emails": [
+        "talent@vapi.ai"
+      ],
+      "linkedin_urls": [
+        "https://www.linkedin.com/company/vapi-ai"
+      ],
+      "links": [
+        {
+          "url": "https://vapi.ai/privacy",
+          "text": "Privacy Policy",
+          "rel": "noopener"
+        },
+        {
+          "url": "#main-content",
+          "text": "Skip to main content",
+          "rel": ""
+        },
+        {
+          "url": "https://www.vapicon.ai/",
+          "text": "Register Now",
+          "rel": ""
+        },
+        {
+          "url": "https://www.vapicon.ai/",
+          "text": "Vapicon 2026 is coming",
+          "rel": ""
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "/customers",
+          "text": "Customers",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "https://dashboard.vapi.ai/login",
+          "text": "Login",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://dashboard.vapi.ai/register",
+          "text": "Get started",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "#open-positions",
+          "text": "Open positions",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/vapi/d270d613-30b8-4fdc-96e0-514993ca7a82",
+          "text": "Apply now",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/vapi/295f5269-1bb5-4740-81fa-9716adc32ad5",
+          "text": "Apply now",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/vapi/50d82ec9-720a-4aea-9a2d-c502786f737e",
+          "text": "Apply now",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/vapi/6c313f2f-5287-4e51-a0a4-a38cda6f79dc",
+          "text": "Apply now",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/vapi/e7c7a40d-4fa9-4f26-8517-343c2e0daa8b",
+          "text": "Apply now",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "mailto:Talent@vapi.ai",
+          "text": "Talent@vapi.ai",
+          "rel": ""
+        },
+        {
+          "url": "https://www.vapicon.ai/",
+          "text": "The frontier voice AI summit · Nov 11–12 Get tickets →",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://docs.vapi.ai/",
+          "text": "Docs",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/platform",
+          "text": "Platform",
+          "rel": ""
+        },
+        {
+          "url": "https://security.vapi.ai/",
+          "text": "Security",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "/community",
+          "text": "Community",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/partnerships",
+          "text": "Partnerships",
+          "rel": ""
+        },
+        {
+          "url": "https://docs.vapi.ai/support",
+          "text": "Contact",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/privacy",
+          "text": "Privacy Policy",
+          "rel": ""
+        },
+        {
+          "url": "/terms-of-service",
+          "text": "Terms of Service",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/VapiAI",
+          "text": "",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://www.linkedin.com/company/vapi-ai",
+          "text": "",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/Vapi_AI",
+          "text": "",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "profile_evidence": [],
+      "excluded_sections": []
+    }
+  ],
+  "llm_calls": [
+    {
+      "purpose": "extraction",
+      "response_id": "chatcmpl-50eb2448-69eb-452f-9150-6060cb2a15dd",
+      "input_tokens": 2678,
+      "output_tokens": 142
+    }
+  ],
+  "linkedin_search": [],
+  "navigation_steps": [],
+  "context_note": "Exact final evidence sent if an extraction call was attempted; otherwise locally budgeted clean text."
+}

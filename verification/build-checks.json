@@ -1,0 +1,13 @@
+{
+  "version": "1.1.1",
+  "wheel": "company_intel_pipeline-1.1.1-py3-none-any.whl",
+  "sha256": "79052181d4491bde55d23c4f4af458f78b2c5d59ea20690f5315ba9cd78e7579",
+  "source_matches_wheel": true,
+  "wheel_installed_successfully": true,
+  "installed_console_help_verified": true,
+  "import_from_installed_package_verified": true,
+  "pip_check": "No broken requirements found.",
+  "build_backend": "setuptools 82.0.1",
+  "build_command": "python -m pip wheel . --no-deps --no-build-isolation --no-index --wheel-dir dist --no-cache-dir",
+  "build_note": "Rebuilt and installed using the existing backend without network dependency downloads."
+}

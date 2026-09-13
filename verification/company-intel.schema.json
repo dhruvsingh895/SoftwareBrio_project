@@ -1,0 +1,139 @@
+{
+  "$defs": {
+    "Contact": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "title": "Type",
+          "type": "string"
+        },
+        "email": {
+          "title": "Email",
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "email"
+      ],
+      "title": "Contact",
+      "type": "object"
+    },
+    "TeamMember": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "role": {
+          "title": "Role",
+          "type": "string"
+        },
+        "linkedin_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Linkedin Url"
+        },
+        "source": {
+          "enum": [
+            "site",
+            "search"
+          ],
+          "title": "Source",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "role",
+        "source"
+      ],
+      "title": "TeamMember",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "company_overview": {
+      "description": "Exactly two sentences, or empty if unknown.",
+      "title": "Company Overview",
+      "type": "string"
+    },
+    "target_audience": {
+      "title": "Target Audience",
+      "type": "string"
+    },
+    "contact_points": {
+      "items": {
+        "$ref": "#/$defs/Contact"
+      },
+      "title": "Contact Points",
+      "type": "array"
+    },
+    "leadership": {
+      "items": {
+        "$ref": "#/$defs/TeamMember"
+      },
+      "title": "Leadership",
+      "type": "array"
+    },
+    "confidence_score": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence Score",
+      "type": "number"
+    },
+    "domain": {
+      "title": "Domain",
+      "type": "string"
+    },
+    "pages_crawled": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Pages Crawled",
+      "type": "array"
+    },
+    "crawl_errors": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Crawl Errors",
+      "type": "array"
+    },
+    "token_usage": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "title": "Token Usage",
+      "type": "object"
+    },
+    "estimated_cost_usd": {
+      "minimum": 0.0,
+      "title": "Estimated Cost Usd",
+      "type": "number"
+    }
+  },
+  "required": [
+    "company_overview",
+    "target_audience",
+    "contact_points",
+    "leadership",
+    "confidence_score",
+    "domain",
+    "pages_crawled",
+    "crawl_errors",
+    "token_usage",
+    "estimated_cost_usd"
+  ],
+  "title": "CompanyIntel",
+  "type": "object"
+}

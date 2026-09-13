@@ -1,0 +1,24 @@
+2026-09-13 23:41:54,959 INFO company_intel.crawler [postman.com] Fetch https://postman.com/ (1/8)
+2026-09-13 23:42:09,979 WARNING company_intel.crawler [postman.com] https://postman.com/: networkidle timeout; used domcontentloaded fallback
+2026-09-13 23:42:14,733 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/about-postman (2/8)
+2026-09-13 23:42:29,747 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/about-postman: networkidle timeout; used domcontentloaded fallback
+2026-09-13 23:42:31,969 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/contact-us (3/8)
+2026-09-13 23:42:46,977 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/contact-us: networkidle timeout; used domcontentloaded fallback
+2026-09-13 23:42:50,618 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/careers (4/8)
+2026-09-13 23:43:05,636 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/careers: networkidle timeout; used domcontentloaded fallback
+2026-09-13 23:43:06,476 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/press-media (5/8)
+2026-09-13 23:43:21,485 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/press-media: networkidle timeout; used domcontentloaded fallback
+2026-09-13 23:43:22,328 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/contact-sales (6/8)
+2026-09-13 23:43:37,335 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/contact-sales: networkidle timeout; used domcontentloaded fallback
+2026-09-13 23:43:38,331 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/about (7/8)
+2026-09-13 23:43:53,335 WARNING company_intel.crawler [postman.com] https://www.postman.com/about: networkidle timeout; used domcontentloaded fallback
+2026-09-13 23:43:53,967 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/about-us (8/8)
+2026-09-13 23:44:08,969 WARNING company_intel.crawler [postman.com] https://www.postman.com/about-us: networkidle timeout; used domcontentloaded fallback
+2026-09-13 23:44:12,552 INFO company_intel.pipeline [postman.com] completed | pages=6 | input=8901 output=532 | $0.000000 | confidence=0.90
+2026-09-13 23:44:13,846 INFO company_intel.pipeline 
+| Domain | Status | Pages | Input tokens | Output tokens | Cost USD | Confidence |
+|---|---|---:|---:|---:|---:|---:|
+| postman.com | completed | 6 | 8901 | 532 | 0.000000 | 0.90 |
+
+Total estimated LLM cost: $0.000000
+

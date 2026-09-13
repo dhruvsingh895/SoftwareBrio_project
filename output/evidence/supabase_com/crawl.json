@@ -1,0 +1,3131 @@
+{
+  "status": "completed",
+  "attempted_urls": [
+    "https://supabase.com/",
+    "https://supabase.com/company",
+    "https://supabase.com/careers",
+    "https://supabase.com/contact/sales",
+    "https://supabase.com/contact-us",
+    "https://supabase.com/support",
+    "https://supabase.com/about",
+    "https://supabase.com/about-us"
+  ],
+  "robots": {
+    "https://supabase.com": {
+      "url": "https://supabase.com/robots.txt",
+      "status": 200,
+      "policy": "parsed",
+      "text": "User-agent: *\nAllow: /\n\nUser-agent: GPTBot\nUser-agent: ClaudeBot\nUser-agent: Google-Extended\nUser-agent: PerplexityBot\nAllow: /\n\nSitemap: https://supabase.com/sitemap.xml\nContent-Signal: ai-train=yes, search=yes, ai-input=yes\n"
+    }
+  },
+  "pages": [
+    {
+      "url": "https://supabase.com/",
+      "title": "Supabase | The Postgres Development Platform OpenAI logo Hugging Face logo",
+      "text": "Build in a weekend Scale to millions\nPostgres Database\nStay productive and manage your app without leaving the dashboard\nUse Supabase with React\nKickstart your next project with production ready templates\nHow industry leaders are building with Supabase\nBuild in a weekend, scale to millions\nBuild in a weekendScale to millions\nStart your project with a Postgres database. Add Authentication, Data APIs, Edge Functions, Realtime Data, Storage, and Vector embeddings.\nStay productive and manage your app\nwithout leaving the dashboard\nKickstart your next project\nwith production ready templates\nView all examples\nStripe Subscriptions Starter\nThe all-in-one subscription starter kit for high-performance SaaS applications, powered by Stripe, Supabase, and Vercel.\nNext.js Starter\nA Next.js App Router template configured with cookie-based auth using Supabase, TypeScript and Tailwind CSS.\nAI Chatbot\nAn open-source AI chatbot app template built with Next.js, the Vercel AI SDK, OpenAI, and Supabase.\nLangChain + Next.js Starter\nStarter template and example use-cases for LangChain projects in Next.js, including chat, agents, and retrieval.\nFlutter User Management\nGet started with Supabase and Flutter by building a user management app with auth, file storage, and database.\nExpo React Native Starter\nAn extended version of create-t3-turbo implementing authentication on both the web and mobile applications.\nHow industry leaders\nare building with Supabase\nMore customer stories\nLovable\nPowering millions of AI-generated apps with a complete Supabase backend.\nLovable is about unlocking creativity for anyone. Only 1% of the population knows how to code. Lovable has unlocked that ability for the other 99%.\nBryan Byrne, Product Manager, Lovable\nJoin the community\nDiscover what our community has to say about their Supabase experience.\nJoin us on Discord\nOpen source from day one\nSupabase is built in the open because we believe great developer tools should be transparent, inspectable, and owned by the community. Read, contribute, self-host. You're never locked in, and always in control.",
+      "emails": [],
+      "linkedin_urls": [],
+      "links": [
+        {
+          "url": "#main",
+          "text": "Skip to content",
+          "rel": ""
+        },
+        {
+          "url": "https://select.supabase.com/",
+          "text": "Apply to attend",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/docs",
+          "text": "Docs",
+          "rel": ""
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase/supabase",
+          "text": "109K",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard",
+          "text": "Sign in",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard/sign-up",
+          "text": "Start your project",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard/sign-up",
+          "text": "Start your project",
+          "rel": ""
+        },
+        {
+          "url": "/contact/sales",
+          "text": "Request a demo",
+          "rel": ""
+        },
+        {
+          "url": "/database",
+          "text": "Postgres Database Every project is  a full Postgres database , the world's most trusted relational database.  100% portable  Built-in Auth with RLS  Easy to extend",
+          "rel": ""
+        },
+        {
+          "url": "/auth",
+          "text": "Authentication Add user sign ups and logins ,  securing your data with Row Level Security.",
+          "rel": ""
+        },
+        {
+          "url": "/edge-functions",
+          "text": "Edge Functions Easily write custom code   without deploying or scaling servers. $ supabase functions  deploy",
+          "rel": ""
+        },
+        {
+          "url": "/storage",
+          "text": "Storage Store, organize, and serve  large files, from videos to images.",
+          "rel": ""
+        },
+        {
+          "url": "/realtime",
+          "text": "Realtime Build multiplayer experiences  with real-time data synchronization.",
+          "rel": ""
+        },
+        {
+          "url": "/modules/vector",
+          "text": "Vector Integrate your favorite ML-models to  store, index and search vector embeddings . OpenAI logo OpenAI Hugging Face logo Hugging Face",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/docs/guides/api",
+          "text": "Data APIs Instant ready-to-use  REST APIs .",
+          "rel": ""
+        },
+        {
+          "url": "/docs/guides/getting-started/quickstarts/reactjs",
+          "text": "Read docs for React",
+          "rel": ""
+        },
+        {
+          "url": "/docs/guides/examples",
+          "text": "View all examples",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase-community/nextjs-subscription-payments",
+          "text": "Stripe Subscriptions Starter The all-in-one subscription starter kit for high-performance SaaS applications, powered by Stripe, Supabase, and Vercel.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://github.com/vercel/next.js/tree/canary/examples/with-supabase",
+          "text": "Next.js Starter A Next.js App Router template configured with cookie-based auth using Supabase, TypeScript and Tailwind CSS.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://github.com/supabase-community/vercel-ai-chatbot",
+          "text": "AI Chatbot An open-source AI chatbot app template built with Next.js, the Vercel AI SDK, OpenAI, and Supabase.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://github.com/langchain-ai/langchain-nextjs-template",
+          "text": "LangChain + Next.js Starter Starter template and example use-cases for LangChain projects in Next.js, including chat, agents, and retrieval.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://github.com/supabase/supabase/tree/master/examples/user-management/flutter-user-management",
+          "text": "Flutter User Management Get started with Supabase and Flutter by building a user management app with auth, file storage, and database.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://github.com/supabase-community/create-t3-turbo",
+          "text": "Expo React Native Starter An extended version of create-t3-turbo implementing authentication on both the web and mobile applications.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/customers",
+          "text": "More customer stories",
+          "rel": ""
+        },
+        {
+          "url": "/customers/lovable",
+          "text": "Read the story →",
+          "rel": ""
+        },
+        {
+          "url": "/customers/lovable",
+          "text": "Read the story →",
+          "rel": ""
+        },
+        {
+          "url": "/customers/exprealty",
+          "text": "Read the story →",
+          "rel": ""
+        },
+        {
+          "url": "/customers/phoenix-energy",
+          "text": "Read the story →",
+          "rel": ""
+        },
+        {
+          "url": "/customers/chatbase",
+          "text": "Read the story →",
+          "rel": ""
+        },
+        {
+          "url": "/customers/rally",
+          "text": "Read the story →",
+          "rel": ""
+        },
+        {
+          "url": "https://discord.supabase.com/",
+          "text": "Join us on Discord",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://twitter.com/nerdburn/status/1356857261495214085",
+          "text": "@nerdburn It’s fun, feels lightweight, and really quick to spin up user auth and a few tables. Almost too easy! Highly recommend.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/adeelibr/status/1981356783818985774",
+          "text": "@adeelibr @supabase shout out, their MCP is awesome. It's helping me create better row securities and telling me best practises for setting up a supabase app",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/SteinlageScott/status/1958603243401183701",
+          "text": "@SteinlageScott I love @supabase's built-in Advisors. The security and performance linters improve everything and boost my confidence in what I'm building!",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/patrickc/status/1979157875600617913",
+          "text": "@patrickc Very impressed by @supabase's growth. For new startups, they seem to have gone from \"promising\" to \"standard\" in remarkably short order.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/TyronBache/status/1924425289959928039",
+          "text": "@TyronBache Really impressed with @supabase's Assistant.\n\nIt has helped me troubleshoot and solve complex CORS Configuration issues on Pinger.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/BowTiedQilin/status/1497602628410388480",
+          "text": "@BowTiedQilin Working with @supabase has been one of the best dev experiences I've had lately.\n\nIncredibly easy to set up, great documentation, and so many fewer hoops to jump through than the competi",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/shadcn/status/1672913636132790272",
+          "text": "@shadcn Supabase is really good. ⚡",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/MinimEditor/status/1954422981708722372",
+          "text": "@MinimEditor I’ve always used Supabase just as a database.\n\nYesterday, I helped debug a founder’s vibe-coding project built with React + React Router — no backend server.\nThe “backend” was entirely Su",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/adm_lawson/status/1958216298309066887",
+          "text": "@adm_lawson Love supabse edge functions. Cursor+Supabase+MCP+Docker desktop is all I need",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/Aliahsan_sfv/status/1967167095894098210",
+          "text": "@Aliahsan_sfv Okay, I finally tried Supabase today and wow... why did I wait so long? 😅 Went from 'how do I even start' to having auth + database + real-time updates working in like 20 minutes. Someti",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/orlandopedro_/status/1958618806143578336",
+          "text": "@orlandopedro_ Love @supabase custom domains\n\nmakes the auth so much better",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/gokul_i/status/1958880167889133811",
+          "text": "@gokul_i First time running @supabase in local. It just works. Very good DX imo.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/yatsiv_yuriy/status/1979182362480071162",
+          "text": "@yatsiv_yuriy Supabase is the best product experience I've had in years.\nNot just tech - taste.\nFrom docs to latency to the URL structure that makes you think \"oh, that's obvious\"\nFeels like every oth",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/sdusteric/status/1957703488470921550",
+          "text": "@sdusteric Loving #Supabase MCP. Claude Code would not only plan what data we should save but also figure out a migration script by checking what the schema looks like on Supabase via MCP.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/dadooos_/status/1947924753618243663",
+          "text": "@dadooos_ Run supabase locally and just wow in silence! I am impressed! This is the kind of tooling I would want for my team.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/Rodrigo66799141/status/1959246083957100851",
+          "text": "@Rodrigo66799141 After a week of diving deep into Supabase for my new SaaS project, I'm really impressed with its Auth and RLS features. It makes security much simpler for solo founders. #buildinpubli",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/shadcn/status/1672913636132790272",
+          "text": "@shadcn Supabase is really good. ⚡",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/MinimEditor/status/1954422981708722372",
+          "text": "@MinimEditor I’ve always used Supabase just as a database.\n\nYesterday, I helped debug a founder’s vibe-coding project built with React + React Router — no backend server.\nThe “backend” was entirely Su",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/xthemadgeniusx/status/1960049950110384250",
+          "text": "@xthemadgeniusx Lately been using Supabase over AWS/ GCP for products to save on costs and rapid builds(Vibe Code) that do not need all the Infra and the hefty costs that come with AWS/ GCP out the do",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/Aliahsan_sfv/status/1967167095894098210",
+          "text": "@Aliahsan_sfv Okay, I finally tried Supabase today and wow... why did I wait so long? 😅 Went from 'how do I even start' to having auth + database + real-time updates working in like 20 minutes. Someti",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/orlandopedro_/status/1958618806143578336",
+          "text": "@orlandopedro_ Love @supabase custom domains\n\nmakes the auth so much better",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/pontusab/status/1958603243401183701",
+          "text": "@pontusab I love everything about Supabase.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/yatsiv_yuriy/status/1979182362480071162",
+          "text": "@yatsiv_yuriy Supabase is the best product experience I've had in years.\nNot just tech - taste.\nFrom docs to latency to the URL structure that makes you think \"oh, that's obvious\"\nFeels like every oth",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/sdusteric/status/1957703488470921550",
+          "text": "@sdusteric Loving #Supabase MCP. Claude Code would not only plan what data we should save but also figure out a migration script by checking what the schema looks like on Supabase via MCP.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://twitter.com/nerdburn/status/1356857261495214085",
+          "text": "@nerdburn It’s fun, feels lightweight, and really quick to spin up user auth and a few tables. Almost too easy! Highly recommend.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/adeelibr/status/1981356783818985774",
+          "text": "@adeelibr @supabase shout out, their MCP is awesome. It's helping me create better row securities and telling me best practises for setting up a supabase app",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/SteinlageScott/status/1958603243401183701",
+          "text": "@SteinlageScott I love @supabase's built-in Advisors. The security and performance linters improve everything and boost my confidence in what I'm building!",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/patrickc/status/1979157875600617913",
+          "text": "@patrickc Very impressed by @supabase's growth. For new startups, they seem to have gone from \"promising\" to \"standard\" in remarkably short order.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/TyronBache/status/1924425289959928039",
+          "text": "@TyronBache Really impressed with @supabase's Assistant.\n\nIt has helped me troubleshoot and solve complex CORS Configuration issues on Pinger.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://x.com/BowTiedQilin/status/1497602628410388480",
+          "text": "@BowTiedQilin Working with @supabase has been one of the best dev experiences I've had lately.\n\nIncredibly easy to set up, great documentation, and so many fewer hoops to jump through than the competi",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "https://github.com/supabase",
+          "text": "View on GitHub",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard/sign-up",
+          "text": "Start your project",
+          "rel": ""
+        },
+        {
+          "url": "/contact/sales",
+          "text": "Request a demo",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "More on Security",
+          "rel": ""
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "https://twitter.com/supabase",
+          "text": "Twitter",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase",
+          "text": "GitHub",
+          "rel": ""
+        },
+        {
+          "url": "https://discord.supabase.com/",
+          "text": "Discord",
+          "rel": ""
+        },
+        {
+          "url": "https://youtube.com/c/supabase",
+          "text": "Youtube",
+          "rel": ""
+        },
+        {
+          "url": "https://www.tiktok.com/@supabase.com",
+          "text": "TikTok",
+          "rel": ""
+        },
+        {
+          "url": "https://www.instagram.com/supabasecom",
+          "text": "Instagram",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/database",
+          "text": "Database",
+          "rel": ""
+        },
+        {
+          "url": "/auth",
+          "text": "Auth",
+          "rel": ""
+        },
+        {
+          "url": "/edge-functions",
+          "text": "Functions",
+          "rel": ""
+        },
+        {
+          "url": "/realtime",
+          "text": "Realtime",
+          "rel": ""
+        },
+        {
+          "url": "/storage",
+          "text": "Storage",
+          "rel": ""
+        },
+        {
+          "url": "/modules/vector",
+          "text": "Vector",
+          "rel": ""
+        },
+        {
+          "url": "/modules/cron",
+          "text": "Cron",
+          "rel": ""
+        },
+        {
+          "url": "/features",
+          "text": "Feature Catalog",
+          "rel": ""
+        },
+        {
+          "url": "/launch-week",
+          "text": "Launch Week",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/ai-builders",
+          "text": "AI Builders",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/no-code",
+          "text": "No Code",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/beginners",
+          "text": "Beginners",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/developers",
+          "text": "Developers",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/postgres-developers",
+          "text": "Postgres Devs",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/vibe-coders",
+          "text": "Vibe Coders",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/hackathon",
+          "text": "Hackathon Contestants",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/startups",
+          "text": "Startups",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/agencies",
+          "text": "Agencies",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/enterprise",
+          "text": "Enterprise",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/innovation-teams",
+          "text": "Innovation Teams",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/hosted-postgres",
+          "text": "Hosted Postgres",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/b2b-saas",
+          "text": "B2B SaaS",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/finserv",
+          "text": "FinServ",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/healthcare",
+          "text": "Healthcare",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/agents",
+          "text": "Agents",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/switch-from-firebase",
+          "text": "Switch from Firebase",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/switch-from-neon",
+          "text": "Switch from Neon",
+          "rel": ""
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "/support",
+          "text": "Support",
+          "rel": ""
+        },
+        {
+          "url": "https://status.supabase.com/",
+          "text": "System Status",
+          "rel": ""
+        },
+        {
+          "url": "/partners",
+          "text": "Become a Partner",
+          "rel": ""
+        },
+        {
+          "url": "/partners/catalog",
+          "text": "Partner Catalog",
+          "rel": ""
+        },
+        {
+          "url": "/brand-assets",
+          "text": "Brand Assets",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "Security & Compliance",
+          "rel": ""
+        },
+        {
+          "url": "/regions",
+          "text": "Regions",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "SOC2",
+          "rel": ""
+        },
+        {
+          "url": "https://forms.supabase.com/hipaa2",
+          "text": "HIPAA",
+          "rel": ""
+        },
+        {
+          "url": "/docs",
+          "text": "Documentation",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/library",
+          "text": "Supabase Library",
+          "rel": ""
+        },
+        {
+          "url": "/changelog",
+          "text": "Changelog",
+          "rel": ""
+        },
+        {
+          "url": "/rss.xml",
+          "text": "RSS",
+          "rel": ""
+        },
+        {
+          "url": "/events",
+          "text": "Events & Webinars",
+          "rel": ""
+        },
+        {
+          "url": "/supasquad",
+          "text": "SupaSquad",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md",
+          "text": "Contributing",
+          "rel": ""
+        },
+        {
+          "url": "/open-source",
+          "text": "Open Source",
+          "rel": ""
+        },
+        {
+          "url": "https://dev.to/supabase",
+          "text": "DevTo",
+          "rel": ""
+        },
+        {
+          "url": "/company",
+          "text": "Company",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "/ga",
+          "text": "General Availability",
+          "rel": ""
+        },
+        {
+          "url": "/legal",
+          "text": "Legal Hub",
+          "rel": ""
+        },
+        {
+          "url": "/privacy",
+          "text": "Privacy Policy",
+          "rel": ""
+        },
+        {
+          "url": "/aup",
+          "text": "Acceptable Use Policy",
+          "rel": ""
+        },
+        {
+          "url": "/humans.txt",
+          "text": "Humans.txt",
+          "rel": ""
+        },
+        {
+          "url": "/lawyers.txt",
+          "text": "Lawyers.txt",
+          "rel": ""
+        },
+        {
+          "url": "/.well-known/security.txt",
+          "text": "Security.txt",
+          "rel": ""
+        },
+        {
+          "url": "/contact-us",
+          "text": "Contact Us",
+          "rel": ""
+        }
+      ],
+      "profile_evidence": [],
+      "excluded_sections": []
+    },
+    {
+      "url": "https://supabase.com/company",
+      "title": "One of the world's fastest-growing open source communities | Supabase",
+      "text": "Press\nARTICLE\nPODCAST\nTeam\nBuild in a weekend, scale to millions\nJoin one of the world's fastest growing open source communities.\n10,000,000+\nRegistered developers\n100,000+\nGitHub stars\n200,000+\nFollowers\n50,000+\nSupaTroopers\nWith developer signups from the world's leading brands.\nSupabase Select 2026 is coming October 2\nApply to attend",
+      "emails": [],
+      "linkedin_urls": [],
+      "links": [
+        {
+          "url": "#main",
+          "text": "Skip to content",
+          "rel": ""
+        },
+        {
+          "url": "https://select.supabase.com/",
+          "text": "Apply to attend",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/docs",
+          "text": "Docs",
+          "rel": ""
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase/supabase",
+          "text": "109K",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard",
+          "text": "Sign in",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard/sign-up",
+          "text": "Start your project",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/blog/supabase-series-f",
+          "text": "ARTICLE Supabase Series F",
+          "rel": ""
+        },
+        {
+          "url": "https://techcrunch.com/2022/05/10/supabase-raises-80m-series-b-for-its-open-source-firebase-alternative/",
+          "text": "ARTICLE Supabase raises $80M Series B for its open source Firebase alternative",
+          "rel": ""
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/supabase-announces-80-million-series-b-led-by-felicis-301544453.html",
+          "text": "ARTICLE Supabase Announces $80 Million Series B Led by Felicis",
+          "rel": ""
+        },
+        {
+          "url": "https://medium.com/lightspeedindia/our-investment-in-supabase-2f443ff55aad",
+          "text": "ARTICLE Our investment in Supabase",
+          "rel": ""
+        },
+        {
+          "url": "https://podcasts.apple.com/us/podcast/73-elixir-at-supabase-with-paul-copplestone/id1516100616?i=1000542087899",
+          "text": "PODCAST Elixir at Supabase with Paul Copplestone",
+          "rel": ""
+        },
+        {
+          "url": "https://podcasts.apple.com/us/podcast/73-elixir-at-supabase-with-paul-copplestone/id1516100616?i=1000542087899",
+          "text": "PODCAST Ant Wilson on Supabase ",
+          "rel": ""
+        },
+        {
+          "url": "https://podcasts.apple.com/us/podcast/78-logflare-with-chase-granberry/id1516100616?i=1000545628124",
+          "text": "PODCAST Logflare with Chase Granberry",
+          "rel": ""
+        },
+        {
+          "url": "https://stackoverflow.blog/2022/05/17/open-source-is-winning-over-developers-and-investors-ep-442/",
+          "text": "PODCAST Open-source is winning over developers and investors",
+          "rel": ""
+        },
+        {
+          "url": "https://changelog.com/podcast/476",
+          "text": "PODCAST Supabase is all in on Postgres",
+          "rel": ""
+        },
+        {
+          "url": "https://fsjam.org/episodes/episode-33-supabase-with-paul-copplestone",
+          "text": "PODCAST Supabase with Paul Copplestone",
+          "rel": ""
+        },
+        {
+          "url": "https://www.heavybit.com/library/podcasts/jamstack-radio/ep-71-open-source-firebase-alternative-with-paul-copplestone-of-supabase/",
+          "text": "PODCAST Open Source Firebase Alternative with Paul Copplestone of Supabase",
+          "rel": ""
+        },
+        {
+          "url": "https://podrocket.logrocket.com/9",
+          "text": "PODCAST Supabase with Paul Copplestone",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/careers",
+          "text": "  Join the team  ",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard/sign-up",
+          "text": "Start your project",
+          "rel": ""
+        },
+        {
+          "url": "/contact/sales",
+          "text": "Request a demo",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "More on Security",
+          "rel": ""
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "https://twitter.com/supabase",
+          "text": "Twitter",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase",
+          "text": "GitHub",
+          "rel": ""
+        },
+        {
+          "url": "https://discord.supabase.com/",
+          "text": "Discord",
+          "rel": ""
+        },
+        {
+          "url": "https://youtube.com/c/supabase",
+          "text": "Youtube",
+          "rel": ""
+        },
+        {
+          "url": "https://www.tiktok.com/@supabase.com",
+          "text": "TikTok",
+          "rel": ""
+        },
+        {
+          "url": "https://www.instagram.com/supabasecom",
+          "text": "Instagram",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/database",
+          "text": "Database",
+          "rel": ""
+        },
+        {
+          "url": "/auth",
+          "text": "Auth",
+          "rel": ""
+        },
+        {
+          "url": "/edge-functions",
+          "text": "Functions",
+          "rel": ""
+        },
+        {
+          "url": "/realtime",
+          "text": "Realtime",
+          "rel": ""
+        },
+        {
+          "url": "/storage",
+          "text": "Storage",
+          "rel": ""
+        },
+        {
+          "url": "/modules/vector",
+          "text": "Vector",
+          "rel": ""
+        },
+        {
+          "url": "/modules/cron",
+          "text": "Cron",
+          "rel": ""
+        },
+        {
+          "url": "/features",
+          "text": "Feature Catalog",
+          "rel": ""
+        },
+        {
+          "url": "/launch-week",
+          "text": "Launch Week",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/ai-builders",
+          "text": "AI Builders",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/no-code",
+          "text": "No Code",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/beginners",
+          "text": "Beginners",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/developers",
+          "text": "Developers",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/postgres-developers",
+          "text": "Postgres Devs",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/vibe-coders",
+          "text": "Vibe Coders",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/hackathon",
+          "text": "Hackathon Contestants",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/startups",
+          "text": "Startups",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/agencies",
+          "text": "Agencies",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/enterprise",
+          "text": "Enterprise",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/innovation-teams",
+          "text": "Innovation Teams",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/hosted-postgres",
+          "text": "Hosted Postgres",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/b2b-saas",
+          "text": "B2B SaaS",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/finserv",
+          "text": "FinServ",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/healthcare",
+          "text": "Healthcare",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/agents",
+          "text": "Agents",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/switch-from-firebase",
+          "text": "Switch from Firebase",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/switch-from-neon",
+          "text": "Switch from Neon",
+          "rel": ""
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "/support",
+          "text": "Support",
+          "rel": ""
+        },
+        {
+          "url": "https://status.supabase.com/",
+          "text": "System Status",
+          "rel": ""
+        },
+        {
+          "url": "/partners",
+          "text": "Become a Partner",
+          "rel": ""
+        },
+        {
+          "url": "/partners/catalog",
+          "text": "Partner Catalog",
+          "rel": ""
+        },
+        {
+          "url": "/brand-assets",
+          "text": "Brand Assets",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "Security & Compliance",
+          "rel": ""
+        },
+        {
+          "url": "/regions",
+          "text": "Regions",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "SOC2",
+          "rel": ""
+        },
+        {
+          "url": "https://forms.supabase.com/hipaa2",
+          "text": "HIPAA",
+          "rel": ""
+        },
+        {
+          "url": "/docs",
+          "text": "Documentation",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/library",
+          "text": "Supabase Library",
+          "rel": ""
+        },
+        {
+          "url": "/changelog",
+          "text": "Changelog",
+          "rel": ""
+        },
+        {
+          "url": "/rss.xml",
+          "text": "RSS",
+          "rel": ""
+        },
+        {
+          "url": "/events",
+          "text": "Events & Webinars",
+          "rel": ""
+        },
+        {
+          "url": "/supasquad",
+          "text": "SupaSquad",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md",
+          "text": "Contributing",
+          "rel": ""
+        },
+        {
+          "url": "/open-source",
+          "text": "Open Source",
+          "rel": ""
+        },
+        {
+          "url": "https://dev.to/supabase",
+          "text": "DevTo",
+          "rel": ""
+        },
+        {
+          "url": "/company",
+          "text": "Company",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "/ga",
+          "text": "General Availability",
+          "rel": ""
+        },
+        {
+          "url": "/legal",
+          "text": "Legal Hub",
+          "rel": ""
+        },
+        {
+          "url": "/privacy",
+          "text": "Privacy Policy",
+          "rel": ""
+        },
+        {
+          "url": "/aup",
+          "text": "Acceptable Use Policy",
+          "rel": ""
+        },
+        {
+          "url": "/humans.txt",
+          "text": "Humans.txt",
+          "rel": ""
+        },
+        {
+          "url": "/lawyers.txt",
+          "text": "Lawyers.txt",
+          "rel": ""
+        },
+        {
+          "url": "/.well-known/security.txt",
+          "text": "Security.txt",
+          "rel": ""
+        },
+        {
+          "url": "/contact-us",
+          "text": "Contact Us",
+          "rel": ""
+        }
+      ],
+      "profile_evidence": [],
+      "excluded_sections": [
+        {
+          "reason": "investor listing",
+          "text": "Our investors We've raised $1 billion in funding, backed by some of the world's leading investors. Individual investors Alana Anderson Base Case Capital Alex Solomon PagerDuty Cofounder Ankit Jain Infinitus Founder Aron Korenblit Education at Airtable Astasia Myers Quiet Capital Ben Tossell Makerpad Founder Brian Douglas GitHub DevRel Brianne Kimmel Worklife VC Cassidy Williams Netlify DevRel Chris Golda Rogue Capital Chris Nguyen LogDNA Founder Christian Bach Netlify Cofounder Elad Gill Investor Guillermo Rauch Vercel Founder Harold Giménez HashiCorp - VP Eng Jason Warner GitHub CTO Jeff Morris Jr. Chapter One Justin Gage Retool DevRel Kevin van Gundy Vercel CRO Kurt Mackey Fly Founder Lee Robinson Vercel DevRel Mathias Biilmann Christensen Netlify Cofounder Mike Krieger Instagram Cofounder Pedro Canahuati 1Password CTO, Ex-Facebook Piruze Sabuncu Stripe Ram Parami Customer Strategy at Blend Shawn Wang Temporal DevRel Solomon Hykes Docker Cofounder Thorsten Schaeff Stripe DevRel Tod Sacerdoti Pipedream Founder Todd and Rahul Angel Fund Todd and Rahul Angel Fund Tom Preston-Werner GitHub Cofounder Tyler McGinnis UI.dev Cofounder Yuri Sagalov Wayfinder Ventures Zach Waterfield On Deck"
+        }
+      ]
+    },
+    {
+      "url": "https://supabase.com/careers",
+      "title": "Careers | Supabase",
+      "text": "Supabase Careers\nWe work together, wherever we are\n1,500+ Contributors building Supabase\nProduct\nProduct Manager - Marketplace\nProduct Manager - Security & Trust (EMEA/AMER)\nProduct Lead - Infrastructure\nProduct Manager - Branching\nProduct Manager - Strategic Partner Integrations (Bay Area based)\nSuccess\nCustomer Solution Architect (AMER)\nCustomer Solution Architect, Team Lead\nPartner Solution Architect (AWS)\nPre-Sales Solutions Architect (SA) Leader\nTechnical Account Management (TAM) Leader\nSupport\nSupport Engineer (EMEA)\nSupport Engineer (AMER)\nSupport Engineer (APAC)\nSupport Engineer (AMER - Weekends)\nSupport Engineer (EMEA - Weekends)\nDatabase Support Engineer (AMER)\nDatabase Support Engineer (EMEA)\nDatabase Support Engineer (APAC)\nEngineering\nMultigres Engineer\nPostgres Engineer\nMultigres Deployment Engineer\nPostgres Deployment Engineer (Nix)\nSoftware Engineer - Auth\nSoftware Engineer: IaC Platform Experience\nEdge Functions Engineer\nOrioleDB Developer\nEngineering Manager\nSite Reliability Engineer\nAPI Engineer\nSupalite Engineer\nRelease Engineer\nPerformance Engineer - Performance Analysis & Tuning\nPerformance Engineer - Benchmarking\nEngineering Productivity Engineer\nFrontend Engineer\nSDK Engineer - JavaScript\nPlatform Engineer - Compute Capacity\nSoftware Engineer - Branching\nPlatform Security Engineer (AMER/APAC)\nEngineering Manager, Billing\nMarketing\nDeveloper Relations Engineer\nEvent Programs Manager, Developer Community & Ecosystem\nDeveloper Relations Engineer (New York, NY)\nDeveloper Relations Engineer (London, UK)\nSales\nAccount Executive (EMEA)\nAccount Executive (APAC)\nDesign\nBrand Designer\nProduct Designer\nOperations\nExecutive Assistant to the CEO\nPartnerships\nPartnerships Manager, Ecosystem\nStrategic Partner Manager\nPartnerships Lead (APAC)\nPartnerships Lead (EMEA)\nField Marketing Manager, Startups\nAWS Enterprise Segment Lead\nAWS Game Development Segment Lead\nGrowth\nPartner Operations & Systems Lead\nData + Growth\nSenior Data Analyst - Marketing\nTechnical Program Management\nFounding Technical Program Manager\nDon't see a role that fits?\nWe're on a mission to build the best developer platform\nExplore remote opportunities and join our team to help us achieve it.\nOpen positions (59)\n350+\nteam members\nin 60+ countries\n20+\nlanguages spoken\n$1B\nraised\n540,000+\ncommunity members\n40,000+\nmemes posted\n(and counting)\nWe work together,\nwherever we are\nWorking in a globally distributed team is rewarding but has its challenges. We are across many different timezones, so we use tools like Notion, Slack, and Discord to stay connected to our team, and our community.\nWe deeply believe in the efficacy of collaborative open source\nWhat is Supabase\nSupabase is the Postgres development platform, built by developers for developers. Supabase adds auth, realtime, storage, restful APIs, and edge\nSupabase was born-remote. Having a globally distributed, open source company is our secret weapon to hiring top-tier talent.\nHuman powered\nAs a completely remote and asynchronous team, we focus on these five traits to keep our team effective:\nEgoless\nMission driven, work for the good of colleagues.\nKaizen Mindset\nIterative approach, continuously improve all functions.\nTruth Seeking\nIntellectually honest, act with integrity, recognize biases.\nBatteries Included\nHigh ownership, intrinsically motivated, care about quality.\nUndeniable\nSo good you earn respect, reliable, consistently deliver.\nGreat people deserve great benefits\nFully Remote\nWe hire globally. We believe you can do your best work from anywhere. There are no Supabase offices, but we provide a co-working membership that you can use anywhere in the world.\nTech Allowance\nUse this budget for any technology you need for your work setup.\nHealth Benefits\nWe provide 100% health coverage for employees and 80% for dependants. It's important to us that you & your family have health care covered.\nAnnual Off-Sites\nWe believe in the value of in-person time, so we all come together annually for a week. Each year we pick somewhere different in the world. It's a highlight of the year!\nFlexible Work\nWork remotely from anywhere in the world. We work in teams, but we work asynchronously. You know what you need to do and when it needs to be done.\nProfessional Development\nAn annual allowance to spend on professional development and education. Use this for courses, books, conferences, or anything that supports your continuous learning.",
+      "emails": [],
+      "linkedin_urls": [],
+      "links": [
+        {
+          "url": "#main",
+          "text": "Skip to content",
+          "rel": ""
+        },
+        {
+          "url": "https://select.supabase.com/",
+          "text": "Apply to attend",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/docs",
+          "text": "Docs",
+          "rel": ""
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase/supabase",
+          "text": "109K",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard",
+          "text": "Sign in",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard/sign-up",
+          "text": "Start your project",
+          "rel": ""
+        },
+        {
+          "url": "/careers#positions",
+          "text": "Open positions ( 59 )",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/Isaiah-Hamilton",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/Hallidayo",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/mikqi",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "https://twitter.com/XquisiteDreamer",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/marijanapav",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "https://twitter.com/estee_tey",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/ghostdevv",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/23c9ce7e-6b7b-4316-8f00-8f318e902441",
+          "text": "Product Manager - Marketplace Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/b8010a28-109c-46a9-b8b7-c7f9b24077fa",
+          "text": "Product Manager - Security & Trust (EMEA/AMER) Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/47bcfdb8-b954-423e-8a9e-85256434575c",
+          "text": "Product Lead - Infrastructure Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/9773ea1b-e25b-437c-bdbd-3fce0c69101e",
+          "text": "Product Manager - Branching Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/68a397e7-8a1a-4566-ae41-e8c61dd6ed93",
+          "text": "Product Manager - Strategic Partner Integrations (Bay Area based) Remote, Bay Area, CA Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/d5573afa-636c-4219-832f-386f498243bf",
+          "text": "Customer Solution Architect (AMER) Remote, AMER Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/66bab062-b769-43cf-ac3c-a2630257624c",
+          "text": "Customer Solution Architect, Team Lead  Remote, AMER Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/afd359ea-d37a-4bc4-b58d-7b851511988f",
+          "text": "Partner Solution Architect (AWS) Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/624d48cc-8d34-4607-bace-e6d045df70b8",
+          "text": "Pre-Sales Solutions Architect (SA) Leader Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/f52fd120-5fbe-4e0d-949d-01e217ec77d6",
+          "text": "Technical Account Management (TAM) Leader Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/c01f7436-1fdd-4a3e-8b96-8cadc33b006e",
+          "text": "Support Engineer (EMEA) Remote, EMEA Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/e4e3ccb7-7b7d-42a2-be0f-26cbb5ae4abd",
+          "text": "Support Engineer (AMER) Remote, AMER Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/142135ae-a15f-4ec7-90bb-cb4e7968bc09",
+          "text": "Support Engineer (APAC) Remote, APAC Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/dcf09dfe-55bc-44ba-b5db-1a2de7f33216",
+          "text": "Support Engineer (AMER - Weekends) Remote, AMER Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/590a0742-97f1-47f4-81a2-567efc939ae2",
+          "text": "Support Engineer (EMEA - Weekends) Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/f18b1173-51c3-4ff6-bcda-89f8111931f4",
+          "text": "Database Support Engineer (AMER) Remote, AMER Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/3889002e-536e-4046-a330-70e942b0cc96",
+          "text": "Database Support Engineer (EMEA) Remote, EMEA Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/62945518-2468-4cf5-9f36-904b60f75183",
+          "text": "Database Support Engineer (APAC) Remote, APAC Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/2e718684-4f75-4a99-8d6b-3b6bd44e4228",
+          "text": "Multigres Engineer Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/c16bd707-29f2-46fb-8409-7270ff00978b",
+          "text": "Postgres Engineer Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/f035bda1-b5d3-4c5b-8736-b9c335fe1c3b",
+          "text": "Multigres Deployment Engineer Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/48950725-e0d9-4025-92d9-f75e1b60ce45",
+          "text": "Postgres Deployment Engineer (Nix) Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/e569b7f7-fa8f-4139-86f6-4f52b456882d",
+          "text": "Software Engineer - Auth Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/b7206c22-979f-444a-809b-e70d9ee23c7f",
+          "text": "Software Engineer: IaC Platform Experience Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/3ab0b926-c9b5-4197-aff2-88d5bf009e13",
+          "text": "Edge Functions Engineer Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/621516b5-4d8f-4ee9-8287-2da12e63d023",
+          "text": "OrioleDB Developer  Remote, AMER Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/99a80436-89ec-412b-b782-1dd462bd16dc",
+          "text": "Engineering Manager Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/ed6cedb1-b9bf-4609-ac5c-c75c33b31bf3",
+          "text": "Site Reliability Engineer Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/620bcab3-787c-4ffe-bd37-5d45e209925e",
+          "text": "API Engineer  Remote, AMER Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/b75ba81e-54cc-4393-a575-bc41776b0113",
+          "text": "Supalite Engineer Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/f6035bf8-4f44-4425-9944-d5509a3c8652",
+          "text": "Release Engineer Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/98ef6a11-9898-4960-9931-1264285849f3",
+          "text": "Performance Engineer - Performance Analysis & Tuning Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/11beb619-0c25-4b11-9818-3f18e278c65b",
+          "text": "Performance Engineer - Benchmarking Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/8229db66-dc3f-4ffe-8d86-90ce9ffb4c90",
+          "text": "Engineering Productivity Engineer Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/f048dd68-63f8-4f98-9860-3d5a43c09a01",
+          "text": "Frontend Engineer Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/f44742fb-18c6-478f-bf78-63707ed57db7",
+          "text": "SDK Engineer - JavaScript Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/4eb14408-51e6-4c58-812a-3782d5c0b045",
+          "text": "Platform Engineer - Compute Capacity Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/06752423-eebb-472c-95b5-c7ff2559fd60",
+          "text": "Software Engineer - Branching Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/8fa1c7a0-a85c-4562-a1f5-4dd22cadae27",
+          "text": "Platform Security Engineer (AMER/APAC) Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/b4a2f5e5-5c51-4c1a-abde-a89de27451c7",
+          "text": "Engineering Manager, Billing Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/a1320bbf-bfae-49a8-a1b7-12eeccaf39ca",
+          "text": "Developer Relations Engineer  Remote, San Francisco, CA Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/715ba1ea-bd0b-4960-9d5a-defca99f2e24",
+          "text": "Event Programs Manager, Developer Community & Ecosystem  Remote, San Francisco, CA Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/98ae5c78-eab7-4879-b143-96b98e4d0dbb",
+          "text": "Developer Relations Engineer (New York, NY) Remote, New York, US Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/26f7817d-ca92-4094-a2b5-f22e07a218c4",
+          "text": "Developer Relations Engineer Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/1acade7a-0b80-4c6c-9253-7c27a165739d",
+          "text": "Developer Relations Engineer (London, UK) Remote, London UK Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/a069c886-1107-408e-88b4-e1aa8d33d4bc",
+          "text": " Account Executive (EMEA) Remote, EMEA Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/4859464f-afab-4409-b295-4f4cbbfc41eb",
+          "text": "Account Executive  (APAC) Remote, APAC Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/4a85c92b-1d0d-43ee-8dbc-0e45a58be208",
+          "text": "Brand Designer Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/97fe8e68-28c5-42db-a763-60113f0b31fd",
+          "text": "Product Designer Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/b566fbf8-2894-4314-9533-8fa920e80c19",
+          "text": "Executive Assistant to the CEO Remote, APAC Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/f0f277ac-b96c-478a-81ca-7bd80612533f",
+          "text": "Partnerships Manager, Ecosystem Remote, AMER Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/cb04ae3a-3a47-4e21-928f-c2456b7b214e",
+          "text": "Strategic Partner Manager  Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/180257c0-ad46-4fae-b34f-36d8ddc2fe2e",
+          "text": "Partnerships Lead (APAC) Remote, Singapore Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/79dd0887-e54c-484c-a988-c8720040dd0b",
+          "text": "Partnerships Lead (EMEA) Remote, London UK Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/f8fc6aae-d2b4-456a-97db-012a1970c398",
+          "text": "Field Marketing Manager, Startups Remote, San Francisco, CA Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/f3a7c4bf-3e79-4556-a4e9-04d6987a0e8f",
+          "text": "AWS Enterprise Segment Lead Remote, AMER Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/344787f2-d115-4056-87ca-7668fc14be3d",
+          "text": "AWS Game Development Segment Lead Remote, AMER Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/577bdf6d-f34b-4b9e-8d6b-b96776675c94",
+          "text": "Partner Operations & Systems Lead Remote, US West Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/59083a14-b2b6-4dd8-8037-739aa1ad1e22",
+          "text": "Senior Data Analyst - Marketing Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/7a5d81a2-c586-4d7f-a179-89c95869ca33",
+          "text": "Founding Technical Program Manager Remote, Global Apply for position",
+          "rel": ""
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/supabase/form/talent-community-form",
+          "text": "Join community",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "More on Security",
+          "rel": ""
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "https://twitter.com/supabase",
+          "text": "Twitter",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase",
+          "text": "GitHub",
+          "rel": ""
+        },
+        {
+          "url": "https://discord.supabase.com/",
+          "text": "Discord",
+          "rel": ""
+        },
+        {
+          "url": "https://youtube.com/c/supabase",
+          "text": "Youtube",
+          "rel": ""
+        },
+        {
+          "url": "https://www.tiktok.com/@supabase.com",
+          "text": "TikTok",
+          "rel": ""
+        },
+        {
+          "url": "https://www.instagram.com/supabasecom",
+          "text": "Instagram",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/database",
+          "text": "Database",
+          "rel": ""
+        },
+        {
+          "url": "/auth",
+          "text": "Auth",
+          "rel": ""
+        },
+        {
+          "url": "/edge-functions",
+          "text": "Functions",
+          "rel": ""
+        },
+        {
+          "url": "/realtime",
+          "text": "Realtime",
+          "rel": ""
+        },
+        {
+          "url": "/storage",
+          "text": "Storage",
+          "rel": ""
+        },
+        {
+          "url": "/modules/vector",
+          "text": "Vector",
+          "rel": ""
+        },
+        {
+          "url": "/modules/cron",
+          "text": "Cron",
+          "rel": ""
+        },
+        {
+          "url": "/features",
+          "text": "Feature Catalog",
+          "rel": ""
+        },
+        {
+          "url": "/launch-week",
+          "text": "Launch Week",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/ai-builders",
+          "text": "AI Builders",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/no-code",
+          "text": "No Code",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/beginners",
+          "text": "Beginners",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/developers",
+          "text": "Developers",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/postgres-developers",
+          "text": "Postgres Devs",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/vibe-coders",
+          "text": "Vibe Coders",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/hackathon",
+          "text": "Hackathon Contestants",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/startups",
+          "text": "Startups",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/agencies",
+          "text": "Agencies",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/enterprise",
+          "text": "Enterprise",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/innovation-teams",
+          "text": "Innovation Teams",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/hosted-postgres",
+          "text": "Hosted Postgres",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/b2b-saas",
+          "text": "B2B SaaS",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/finserv",
+          "text": "FinServ",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/healthcare",
+          "text": "Healthcare",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/agents",
+          "text": "Agents",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/switch-from-firebase",
+          "text": "Switch from Firebase",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/switch-from-neon",
+          "text": "Switch from Neon",
+          "rel": ""
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "/support",
+          "text": "Support",
+          "rel": ""
+        },
+        {
+          "url": "https://status.supabase.com/",
+          "text": "System Status",
+          "rel": ""
+        },
+        {
+          "url": "/partners",
+          "text": "Become a Partner",
+          "rel": ""
+        },
+        {
+          "url": "/partners/catalog",
+          "text": "Partner Catalog",
+          "rel": ""
+        },
+        {
+          "url": "/brand-assets",
+          "text": "Brand Assets",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "Security & Compliance",
+          "rel": ""
+        },
+        {
+          "url": "/regions",
+          "text": "Regions",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "SOC2",
+          "rel": ""
+        },
+        {
+          "url": "https://forms.supabase.com/hipaa2",
+          "text": "HIPAA",
+          "rel": ""
+        },
+        {
+          "url": "/docs",
+          "text": "Documentation",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/library",
+          "text": "Supabase Library",
+          "rel": ""
+        },
+        {
+          "url": "/changelog",
+          "text": "Changelog",
+          "rel": ""
+        },
+        {
+          "url": "/rss.xml",
+          "text": "RSS",
+          "rel": ""
+        },
+        {
+          "url": "/events",
+          "text": "Events & Webinars",
+          "rel": ""
+        },
+        {
+          "url": "/supasquad",
+          "text": "SupaSquad",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md",
+          "text": "Contributing",
+          "rel": ""
+        },
+        {
+          "url": "/open-source",
+          "text": "Open Source",
+          "rel": ""
+        },
+        {
+          "url": "https://dev.to/supabase",
+          "text": "DevTo",
+          "rel": ""
+        },
+        {
+          "url": "/company",
+          "text": "Company",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "/ga",
+          "text": "General Availability",
+          "rel": ""
+        },
+        {
+          "url": "/legal",
+          "text": "Legal Hub",
+          "rel": ""
+        },
+        {
+          "url": "/privacy",
+          "text": "Privacy Policy",
+          "rel": ""
+        },
+        {
+          "url": "/aup",
+          "text": "Acceptable Use Policy",
+          "rel": ""
+        },
+        {
+          "url": "/humans.txt",
+          "text": "Humans.txt",
+          "rel": ""
+        },
+        {
+          "url": "/lawyers.txt",
+          "text": "Lawyers.txt",
+          "rel": ""
+        },
+        {
+          "url": "/.well-known/security.txt",
+          "text": "Security.txt",
+          "rel": ""
+        },
+        {
+          "url": "/contact-us",
+          "text": "Contact Us",
+          "rel": ""
+        }
+      ],
+      "profile_evidence": [],
+      "excluded_sections": []
+    },
+    {
+      "url": "https://supabase.com/contact/sales",
+      "title": "Contact Sales & Request a Demo | Supabase",
+      "text": "Talk to our Sales team\nBook a demo and set up a trial Enterprise account to see how Supabase's scalable features can accelerate your business growth and app development.\nContact support if you need technical help\nSupabase Select 2026 is coming October 2\nApply to attend",
+      "emails": [],
+      "linkedin_urls": [],
+      "links": [
+        {
+          "url": "#main",
+          "text": "Skip to content",
+          "rel": ""
+        },
+        {
+          "url": "https://select.supabase.com/",
+          "text": "Apply to attend",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/docs",
+          "text": "Docs",
+          "rel": ""
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase/supabase",
+          "text": "109K",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard",
+          "text": "Sign in",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard/sign-up",
+          "text": "Start your project",
+          "rel": ""
+        },
+        {
+          "url": "/privacy",
+          "text": "Privacy Policy",
+          "rel": ""
+        },
+        {
+          "url": "/support",
+          "text": "Contact support",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "More on Security",
+          "rel": ""
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "https://twitter.com/supabase",
+          "text": "Twitter",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase",
+          "text": "GitHub",
+          "rel": ""
+        },
+        {
+          "url": "https://discord.supabase.com/",
+          "text": "Discord",
+          "rel": ""
+        },
+        {
+          "url": "https://youtube.com/c/supabase",
+          "text": "Youtube",
+          "rel": ""
+        },
+        {
+          "url": "https://www.tiktok.com/@supabase.com",
+          "text": "TikTok",
+          "rel": ""
+        },
+        {
+          "url": "https://www.instagram.com/supabasecom",
+          "text": "Instagram",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/database",
+          "text": "Database",
+          "rel": ""
+        },
+        {
+          "url": "/auth",
+          "text": "Auth",
+          "rel": ""
+        },
+        {
+          "url": "/edge-functions",
+          "text": "Functions",
+          "rel": ""
+        },
+        {
+          "url": "/realtime",
+          "text": "Realtime",
+          "rel": ""
+        },
+        {
+          "url": "/storage",
+          "text": "Storage",
+          "rel": ""
+        },
+        {
+          "url": "/modules/vector",
+          "text": "Vector",
+          "rel": ""
+        },
+        {
+          "url": "/modules/cron",
+          "text": "Cron",
+          "rel": ""
+        },
+        {
+          "url": "/features",
+          "text": "Feature Catalog",
+          "rel": ""
+        },
+        {
+          "url": "/launch-week",
+          "text": "Launch Week",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/ai-builders",
+          "text": "AI Builders",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/no-code",
+          "text": "No Code",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/beginners",
+          "text": "Beginners",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/developers",
+          "text": "Developers",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/postgres-developers",
+          "text": "Postgres Devs",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/vibe-coders",
+          "text": "Vibe Coders",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/hackathon",
+          "text": "Hackathon Contestants",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/startups",
+          "text": "Startups",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/agencies",
+          "text": "Agencies",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/enterprise",
+          "text": "Enterprise",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/innovation-teams",
+          "text": "Innovation Teams",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/hosted-postgres",
+          "text": "Hosted Postgres",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/b2b-saas",
+          "text": "B2B SaaS",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/finserv",
+          "text": "FinServ",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/healthcare",
+          "text": "Healthcare",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/agents",
+          "text": "Agents",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/switch-from-firebase",
+          "text": "Switch from Firebase",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/switch-from-neon",
+          "text": "Switch from Neon",
+          "rel": ""
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "/support",
+          "text": "Support",
+          "rel": ""
+        },
+        {
+          "url": "https://status.supabase.com/",
+          "text": "System Status",
+          "rel": ""
+        },
+        {
+          "url": "/partners",
+          "text": "Become a Partner",
+          "rel": ""
+        },
+        {
+          "url": "/partners/catalog",
+          "text": "Partner Catalog",
+          "rel": ""
+        },
+        {
+          "url": "/brand-assets",
+          "text": "Brand Assets",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "Security & Compliance",
+          "rel": ""
+        },
+        {
+          "url": "/regions",
+          "text": "Regions",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "SOC2",
+          "rel": ""
+        },
+        {
+          "url": "https://forms.supabase.com/hipaa2",
+          "text": "HIPAA",
+          "rel": ""
+        },
+        {
+          "url": "/docs",
+          "text": "Documentation",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/library",
+          "text": "Supabase Library",
+          "rel": ""
+        },
+        {
+          "url": "/changelog",
+          "text": "Changelog",
+          "rel": ""
+        },
+        {
+          "url": "/rss.xml",
+          "text": "RSS",
+          "rel": ""
+        },
+        {
+          "url": "/events",
+          "text": "Events & Webinars",
+          "rel": ""
+        },
+        {
+          "url": "/supasquad",
+          "text": "SupaSquad",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md",
+          "text": "Contributing",
+          "rel": ""
+        },
+        {
+          "url": "/open-source",
+          "text": "Open Source",
+          "rel": ""
+        },
+        {
+          "url": "https://dev.to/supabase",
+          "text": "DevTo",
+          "rel": ""
+        },
+        {
+          "url": "/company",
+          "text": "Company",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "/ga",
+          "text": "General Availability",
+          "rel": ""
+        },
+        {
+          "url": "/legal",
+          "text": "Legal Hub",
+          "rel": ""
+        },
+        {
+          "url": "/privacy",
+          "text": "Privacy Policy",
+          "rel": ""
+        },
+        {
+          "url": "/aup",
+          "text": "Acceptable Use Policy",
+          "rel": ""
+        },
+        {
+          "url": "/humans.txt",
+          "text": "Humans.txt",
+          "rel": ""
+        },
+        {
+          "url": "/lawyers.txt",
+          "text": "Lawyers.txt",
+          "rel": ""
+        },
+        {
+          "url": "/.well-known/security.txt",
+          "text": "Security.txt",
+          "rel": ""
+        },
+        {
+          "url": "/contact-us",
+          "text": "Contact Us",
+          "rel": ""
+        }
+      ],
+      "profile_evidence": [],
+      "excluded_sections": [
+        {
+          "reason": "attributed quotation; affiliation may be external",
+          "text": "\" My biggest regret is not having gone with Supabase from the beginning. \" Jakob Steinn, Co-founder & Tech Lead, Good Tape"
+        },
+        {
+          "reason": "attributed quotation; affiliation may be external",
+          "text": "\" My biggest regret is not having gone with Supabase from the beginning. \" Jakob Steinn Co-founder & Tech Lead"
+        }
+      ]
+    },
+    {
+      "url": "https://supabase.com/contact-us",
+      "title": "Contact Us | Supabase",
+      "text": "Legal\nContact Us\nNeed help? Want to report something? Have a legal question?\nUse the right channel below so we can get you to the right team quickly.\nPrivacy\nprivacy@supabase.com\nFor questions about personal data, data subject rights requests, GDPR/CCPA inquiries, or how Supabase processes personal information.\nAbuse & Acceptable Use\nabuse@supabase.com\nTo report suspected violations of our Acceptable Use Policy, including spam, phishing, malware, or unlawful activity involving Supabase services.\nSecurity\nsecurity@supabase.com\nTo responsibly disclose potential security vulnerabilities or report suspected security incidents involving Supabase infrastructure or services.\nEvents\nhelp-events@supabase.com\nFor hackathon or event sponsorship requests. While we can't sponsor every event, we'd love to hear about yours. We'll follow up if it's a good fit.\nGrievance Officer\nAttn: Tracy Lane\nIn jurisdictions that require the designation of a Grievance Officer or similar compliance contact, Tracy Lane, General Counsel of Supabase, Inc., serves in that role. Formal complaints, regulatory inquiries, or legally required grievance submissions may be directed to the email above.\nSupabase will acknowledge receipt of grievances and respond within the timeframe required by applicable law.",
+      "emails": [
+        "abuse@supabase.com",
+        "help-events@supabase.com",
+        "legal@supabase.com",
+        "privacy@supabase.com",
+        "security@supabase.com"
+      ],
+      "linkedin_urls": [],
+      "links": [
+        {
+          "url": "#main",
+          "text": "Skip to content",
+          "rel": ""
+        },
+        {
+          "url": "https://select.supabase.com/",
+          "text": "Apply to attend",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/docs",
+          "text": "Docs",
+          "rel": ""
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase/supabase",
+          "text": "109K",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard",
+          "text": "Sign in",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard/sign-up",
+          "text": "Start your project",
+          "rel": ""
+        },
+        {
+          "url": "mailto:legal@supabase.com",
+          "text": "legal@supabase.com",
+          "rel": ""
+        },
+        {
+          "url": "mailto:privacy@supabase.com",
+          "text": "privacy@supabase.com",
+          "rel": ""
+        },
+        {
+          "url": "mailto:abuse@supabase.com",
+          "text": "abuse@supabase.com",
+          "rel": ""
+        },
+        {
+          "url": "/aup",
+          "text": "Acceptable Use Policy",
+          "rel": ""
+        },
+        {
+          "url": "mailto:security@supabase.com",
+          "text": "security@supabase.com",
+          "rel": ""
+        },
+        {
+          "url": "mailto:help-events@supabase.com",
+          "text": "help-events@supabase.com",
+          "rel": ""
+        },
+        {
+          "url": "mailto:legal@supabase.com",
+          "text": "legal@supabase.com",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "More on Security",
+          "rel": ""
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "https://twitter.com/supabase",
+          "text": "Twitter",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase",
+          "text": "GitHub",
+          "rel": ""
+        },
+        {
+          "url": "https://discord.supabase.com/",
+          "text": "Discord",
+          "rel": ""
+        },
+        {
+          "url": "https://youtube.com/c/supabase",
+          "text": "Youtube",
+          "rel": ""
+        },
+        {
+          "url": "https://www.tiktok.com/@supabase.com",
+          "text": "TikTok",
+          "rel": ""
+        },
+        {
+          "url": "https://www.instagram.com/supabasecom",
+          "text": "Instagram",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/database",
+          "text": "Database",
+          "rel": ""
+        },
+        {
+          "url": "/auth",
+          "text": "Auth",
+          "rel": ""
+        },
+        {
+          "url": "/edge-functions",
+          "text": "Functions",
+          "rel": ""
+        },
+        {
+          "url": "/realtime",
+          "text": "Realtime",
+          "rel": ""
+        },
+        {
+          "url": "/storage",
+          "text": "Storage",
+          "rel": ""
+        },
+        {
+          "url": "/modules/vector",
+          "text": "Vector",
+          "rel": ""
+        },
+        {
+          "url": "/modules/cron",
+          "text": "Cron",
+          "rel": ""
+        },
+        {
+          "url": "/features",
+          "text": "Feature Catalog",
+          "rel": ""
+        },
+        {
+          "url": "/launch-week",
+          "text": "Launch Week",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/ai-builders",
+          "text": "AI Builders",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/no-code",
+          "text": "No Code",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/beginners",
+          "text": "Beginners",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/developers",
+          "text": "Developers",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/postgres-developers",
+          "text": "Postgres Devs",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/vibe-coders",
+          "text": "Vibe Coders",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/hackathon",
+          "text": "Hackathon Contestants",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/startups",
+          "text": "Startups",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/agencies",
+          "text": "Agencies",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/enterprise",
+          "text": "Enterprise",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/innovation-teams",
+          "text": "Innovation Teams",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/hosted-postgres",
+          "text": "Hosted Postgres",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/b2b-saas",
+          "text": "B2B SaaS",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/finserv",
+          "text": "FinServ",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/healthcare",
+          "text": "Healthcare",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/agents",
+          "text": "Agents",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/switch-from-firebase",
+          "text": "Switch from Firebase",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/switch-from-neon",
+          "text": "Switch from Neon",
+          "rel": ""
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "/support",
+          "text": "Support",
+          "rel": ""
+        },
+        {
+          "url": "https://status.supabase.com/",
+          "text": "System Status",
+          "rel": ""
+        },
+        {
+          "url": "/partners",
+          "text": "Become a Partner",
+          "rel": ""
+        },
+        {
+          "url": "/partners/catalog",
+          "text": "Partner Catalog",
+          "rel": ""
+        },
+        {
+          "url": "/brand-assets",
+          "text": "Brand Assets",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "Security & Compliance",
+          "rel": ""
+        },
+        {
+          "url": "/regions",
+          "text": "Regions",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "SOC2",
+          "rel": ""
+        },
+        {
+          "url": "https://forms.supabase.com/hipaa2",
+          "text": "HIPAA",
+          "rel": ""
+        },
+        {
+          "url": "/docs",
+          "text": "Documentation",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/library",
+          "text": "Supabase Library",
+          "rel": ""
+        },
+        {
+          "url": "/changelog",
+          "text": "Changelog",
+          "rel": ""
+        },
+        {
+          "url": "/rss.xml",
+          "text": "RSS",
+          "rel": ""
+        },
+        {
+          "url": "/events",
+          "text": "Events & Webinars",
+          "rel": ""
+        },
+        {
+          "url": "/supasquad",
+          "text": "SupaSquad",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md",
+          "text": "Contributing",
+          "rel": ""
+        },
+        {
+          "url": "/open-source",
+          "text": "Open Source",
+          "rel": ""
+        },
+        {
+          "url": "https://dev.to/supabase",
+          "text": "DevTo",
+          "rel": ""
+        },
+        {
+          "url": "/company",
+          "text": "Company",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "/ga",
+          "text": "General Availability",
+          "rel": ""
+        },
+        {
+          "url": "/legal",
+          "text": "Legal Hub",
+          "rel": ""
+        },
+        {
+          "url": "/privacy",
+          "text": "Privacy Policy",
+          "rel": ""
+        },
+        {
+          "url": "/aup",
+          "text": "Acceptable Use Policy",
+          "rel": ""
+        },
+        {
+          "url": "/humans.txt",
+          "text": "Humans.txt",
+          "rel": ""
+        },
+        {
+          "url": "/lawyers.txt",
+          "text": "Lawyers.txt",
+          "rel": ""
+        },
+        {
+          "url": "/.well-known/security.txt",
+          "text": "Security.txt",
+          "rel": ""
+        },
+        {
+          "url": "/contact-us",
+          "text": "Contact Us",
+          "rel": ""
+        }
+      ],
+      "profile_evidence": [],
+      "excluded_sections": []
+    },
+    {
+      "url": "https://supabase.com/support",
+      "title": "Help & Support | Supabase",
+      "text": "Support\nHello, how can we help?\nCommunity support\nOur Discord community can help with code-related issues. Many questions are answered in minutes.\nIssues\nFound a bug? We’d love to hear about it in our GitHub issues.\nFeature requests\nWant to suggest a new feature? Share it with us on GitHub discussions.\nCan’t find what you’re looking for?\nThe Supabase Support Team is ready to help.\nResponse time for support tickets will vary depending on plan type and severity of the issue.",
+      "emails": [],
+      "linkedin_urls": [],
+      "links": [
+        {
+          "url": "#main",
+          "text": "Skip to content",
+          "rel": ""
+        },
+        {
+          "url": "https://select.supabase.com/",
+          "text": "Apply to attend",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/docs",
+          "text": "Docs",
+          "rel": ""
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase/supabase",
+          "text": "109K",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard",
+          "text": "Sign in",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard/sign-up",
+          "text": "Start your project",
+          "rel": ""
+        },
+        {
+          "url": "https://discord.supabase.com/",
+          "text": "Join us on Discord",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase/supabase/issues",
+          "text": "Report an issue",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/orgs/supabase/discussions/categories/feature-requests",
+          "text": "Suggest a feature",
+          "rel": ""
+        },
+        {
+          "url": "https://forms.supabase.com/enterprise",
+          "text": "Contact enterprise sales",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/dashboard/support/new",
+          "text": "Open support ticket",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "More on Security",
+          "rel": ""
+        },
+        {
+          "url": "/",
+          "text": "",
+          "rel": ""
+        },
+        {
+          "url": "https://twitter.com/supabase",
+          "text": "Twitter",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase",
+          "text": "GitHub",
+          "rel": ""
+        },
+        {
+          "url": "https://discord.supabase.com/",
+          "text": "Discord",
+          "rel": ""
+        },
+        {
+          "url": "https://youtube.com/c/supabase",
+          "text": "Youtube",
+          "rel": ""
+        },
+        {
+          "url": "https://www.tiktok.com/@supabase.com",
+          "text": "TikTok",
+          "rel": ""
+        },
+        {
+          "url": "https://www.instagram.com/supabasecom",
+          "text": "Instagram",
+          "rel": ""
+        },
+        {
+          "url": "/pricing",
+          "text": "Pricing",
+          "rel": ""
+        },
+        {
+          "url": "/database",
+          "text": "Database",
+          "rel": ""
+        },
+        {
+          "url": "/auth",
+          "text": "Auth",
+          "rel": ""
+        },
+        {
+          "url": "/edge-functions",
+          "text": "Functions",
+          "rel": ""
+        },
+        {
+          "url": "/realtime",
+          "text": "Realtime",
+          "rel": ""
+        },
+        {
+          "url": "/storage",
+          "text": "Storage",
+          "rel": ""
+        },
+        {
+          "url": "/modules/vector",
+          "text": "Vector",
+          "rel": ""
+        },
+        {
+          "url": "/modules/cron",
+          "text": "Cron",
+          "rel": ""
+        },
+        {
+          "url": "/features",
+          "text": "Feature Catalog",
+          "rel": ""
+        },
+        {
+          "url": "/launch-week",
+          "text": "Launch Week",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/ai-builders",
+          "text": "AI Builders",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/no-code",
+          "text": "No Code",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/beginners",
+          "text": "Beginners",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/developers",
+          "text": "Developers",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/postgres-developers",
+          "text": "Postgres Devs",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/vibe-coders",
+          "text": "Vibe Coders",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/hackathon",
+          "text": "Hackathon Contestants",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/startups",
+          "text": "Startups",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/agencies",
+          "text": "Agencies",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/enterprise",
+          "text": "Enterprise",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/innovation-teams",
+          "text": "Innovation Teams",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/hosted-postgres",
+          "text": "Hosted Postgres",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/b2b-saas",
+          "text": "B2B SaaS",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/finserv",
+          "text": "FinServ",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/healthcare",
+          "text": "Healthcare",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/agents",
+          "text": "Agents",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/switch-from-firebase",
+          "text": "Switch from Firebase",
+          "rel": ""
+        },
+        {
+          "url": "/solutions/switch-from-neon",
+          "text": "Switch from Neon",
+          "rel": ""
+        },
+        {
+          "url": "/blog",
+          "text": "Blog",
+          "rel": ""
+        },
+        {
+          "url": "/support",
+          "text": "Support",
+          "rel": ""
+        },
+        {
+          "url": "https://status.supabase.com/",
+          "text": "System Status",
+          "rel": ""
+        },
+        {
+          "url": "/partners",
+          "text": "Become a Partner",
+          "rel": ""
+        },
+        {
+          "url": "/partners/catalog",
+          "text": "Partner Catalog",
+          "rel": ""
+        },
+        {
+          "url": "/brand-assets",
+          "text": "Brand Assets",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "Security & Compliance",
+          "rel": ""
+        },
+        {
+          "url": "/regions",
+          "text": "Regions",
+          "rel": ""
+        },
+        {
+          "url": "/security",
+          "text": "SOC2",
+          "rel": ""
+        },
+        {
+          "url": "https://forms.supabase.com/hipaa2",
+          "text": "HIPAA",
+          "rel": ""
+        },
+        {
+          "url": "/docs",
+          "text": "Documentation",
+          "rel": ""
+        },
+        {
+          "url": "https://supabase.com/library",
+          "text": "Supabase Library",
+          "rel": ""
+        },
+        {
+          "url": "/changelog",
+          "text": "Changelog",
+          "rel": ""
+        },
+        {
+          "url": "/rss.xml",
+          "text": "RSS",
+          "rel": ""
+        },
+        {
+          "url": "/events",
+          "text": "Events & Webinars",
+          "rel": ""
+        },
+        {
+          "url": "/supasquad",
+          "text": "SupaSquad",
+          "rel": ""
+        },
+        {
+          "url": "https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md",
+          "text": "Contributing",
+          "rel": ""
+        },
+        {
+          "url": "/open-source",
+          "text": "Open Source",
+          "rel": ""
+        },
+        {
+          "url": "https://dev.to/supabase",
+          "text": "DevTo",
+          "rel": ""
+        },
+        {
+          "url": "/company",
+          "text": "Company",
+          "rel": ""
+        },
+        {
+          "url": "/careers",
+          "text": "Careers",
+          "rel": ""
+        },
+        {
+          "url": "/ga",
+          "text": "General Availability",
+          "rel": ""
+        },
+        {
+          "url": "/legal",
+          "text": "Legal Hub",
+          "rel": ""
+        },
+        {
+          "url": "/privacy",
+          "text": "Privacy Policy",
+          "rel": ""
+        },
+        {
+          "url": "/aup",
+          "text": "Acceptable Use Policy",
+          "rel": ""
+        },
+        {
+          "url": "/humans.txt",
+          "text": "Humans.txt",
+          "rel": ""
+        },
+        {
+          "url": "/lawyers.txt",
+          "text": "Lawyers.txt",
+          "rel": ""
+        },
+        {
+          "url": "/.well-known/security.txt",
+          "text": "Security.txt",
+          "rel": ""
+        },
+        {
+          "url": "/contact-us",
+          "text": "Contact Us",
+          "rel": ""
+        }
+      ],
+      "profile_evidence": [],
+      "excluded_sections": []
+    }
+  ],
+  "llm_calls": [
+    {
+      "purpose": "extraction",
+      "response_id": "chatcmpl-900e7e02-f407-4390-9bba-5584e21882d3",
+      "input_tokens": 2322,
+      "output_tokens": 239
+    }
+  ],
+  "linkedin_search": [
+    {
+      "name": "Tracy Lane",
+      "query": "\"Tracy Lane\" \"supabase\" site:linkedin.com/in",
+      "search_url": "https://html.duckduckgo.com/html/?q=%22Tracy%20Lane%22%20%22supabase%22%20site%3Alinkedin.com/in",
+      "checked_at": "2026-09-13T18:10:07.518796+00:00",
+      "status": "blocked",
+      "candidates": [],
+      "http_status": 202,
+      "reason": "search provider unavailable or bot-blocked"
+    }
+  ],
+  "navigation_steps": [],
+  "context_note": "Exact final evidence sent if an extraction call was attempted; otherwise locally budgeted clean text."
+}

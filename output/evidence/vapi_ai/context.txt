@@ -1,0 +1,185 @@
+PAGE: https://vapi.ai/
+TITLE: Vapi - Build Advanced Voice AI Agents
+Emails observed on this page: 
+LinkedIn URLs observed on this page (not proof of person/profile association): https://www.linkedin.com/company/vapi-ai
+TEXT:
+Voice agents for builders
+"When Ring customers call in, they expect fast, high-quality support. We went from zero to production in two weeks, and 100% of our inbound volume now runs through Vapi. Most importantly, we've maintained our high bar of support for our customers and CSAT scores have improved."
+Jason Mitura
+VP of Software Development
+Trusted at enterprise scale
+Unified Platform
+One platform for all your voice agents.
+Orchestration, real-time monitoring, and enterprise-grade configurability built for scale.
+Build, test, and deploy in minutes.
+Configure everything from voice and conversation flow, to telephony and integrations. Vapi handles the infrastructure so you can go from prompt to production fast.
+Ship better agents. Faster. Every time.
+Track what's working across every call, surface what isn't, and continuously improve the experiences that drive your business forward.
+Hear for yourself
+Integrations
+API-native by design
+Built for Enterprises
+Enterprise-ready capabilities
+Everything a Fortune 100 needs to deploy at scale
+Support SLA
+Contractual uptime and performance guarantees, with reserved capacity sized to your volume.
+Dedicated Deployment Support
+A dedicated engineer embedded in your team to get you live in a week.
+SSO, OAuth, and RBAC
+Enterprise sign-on, OAuth2 for secure integrations, and granular access controls.
+Scalable Infrastructure
+Scale up to millions of calls with sub-500ms latency.
+AI Guardrails
+Built-in conversation guardrails prevent model hallucinations and ensure data integrity.
+SOC 2, HIPAA, and PCI compliant
+Build agents that meet the standards your business runs on.
+Leading Latin American Automotive Marketplace
+"We reached profitability in Mexico due to this transformation. We're serving twice the customers we were before... and we did this while focusing on the most important part that was the level of service and the experience that our customers were having."
+Alejandro Maza,Chief Product & AI Officer, Kavak
+Everyday Calls. Extraordinary Outcomes.
+1 Billion
+calls supported
+99.9%
+uptime for enterprise clients
+2.5M+
+agents launched
+1M+
+developers
+<500ms
+average latency
+
+PAGE: https://vapi.ai/pricing
+TITLE: Vapi - Build Advanced Voice AI Agents Close this dialog Close Cookie Preferences
+Emails observed on this page: 
+LinkedIn URLs observed on this page (not proof of person/profile association): https://www.linkedin.com/company/vapi-ai
+TEXT:
+Compare Features
+Frequently asked questions
+Pricing
+Simple, scalable pricing
+Build
+Usage based
+Usage-based call minutes (60+ minutes included). Model costs are passed on to customer.
+10 call concurrency ($10 per line/month)
+Email + Discord community support
+Custom voices and model access
+HIPAA at $2K/month
+Zero Data Retention at $1K/month
+Scale
+Annual Contract
+Fixed Platform fee and committed volume
+Volume-based per minute pricing
+Enterprise grade
+SOC 2, HIPAA, PCI, SSO, RBAC
+Data residency
+Priority model and provider access
+Support SLA
+Dedicated account team
+Trusted at enterprise scale
+Compare
+Features
+Get started
+Usage and Scale
+| Call Minutes | |
+|---|---|
+| Build | Scale |
+| Usage based | Custom |
+| Call Concurrency | |
+| 10 included + $10 / line / mo | Custom |
+Vapi Hosting Cost
+Excludes Model Provider Costs
+| Calls | |
+| $0.05 / min | Volume based |
+| SMS/Chat | |
+| $0.005 / msg | Volume based |
+Model Provider Cost (STT, LLM, TTS)
+| At cost ($0 if you bring your own API key) | |
+Channels
+Data Retention
+| Call history | |
+| 14 days | Custom |
+| Chat history | |
+| 30 days | Custom |
+Security and Compliance
+| SSO | |
+| - | |
+| RBAC | |
+| SOC2 | |
+| Add-on: HIPAA | |
+| $2000/mo | $2000/mo |
+| Add-on: Zero Data Retention | |
+| $1000/mo | $1000/mo |
+Reliability and Support
+| Infra SLA | |
+| - | Enterprise-grade uptime |
+| Support SLA | |
+| - | Custom Support SLA |
+| Named Support Engineer | |
+| Account Manager | |
+| Priority Support | |
+| Support | |
+| Community Discord, Email | Dedicated account team |
+Usage calculator
+Estimate your cost
+Vapi HostingContainer hosting for your Vapi agents$0.05 / min
+Total Monthly Cost$50.00
+
+PAGE: https://vapi.ai/careers
+TITLE: VAPI - Careers Close this dialog Close Cookie Preferences
+Emails observed on this page: talent@vapi.ai
+LinkedIn URLs observed on this page (not proof of person/profile association): https://www.linkedin.com/company/vapi-ai
+TEXT:
+Member of Technical Staff, Backend
+Member of Technical Staff, Infrastructure
+Enterprise Account Executive
+Sales Development Representative (SDR)
+Mid Market Account Executive
+Want to be the change in voice technology?
+Build the future of voice
+Vapi is where bleeding-edge tech, brilliant minds, and relentless execution come together to shape voice as humanity's next interface.
+Operating Principles
+How we work, how we make decisions, and how we treat each other.
+Build something worthy of love.
+Craft is how we love our customers, and how we make a life of work worth living. Things that merely work are the floor. We are here to make things people love.
+Commit and follow through.
+We finish what we start. The hardest thing at a company is being someone people can count on. We choose to be that.
+Why not today?
+The things that delight customers usually don’t take long. Find the path that unlocks value today.
+Seek raw input.
+Dashboards, summaries, and second-hand accounts are surface level. Go to the source– customers and each other– and dig until something amazing shows up. That’s where real value is created.
+It’s our problem.
+When something goes wrong, no one stands alone. The team owns it– we share credit freely, have each other’s backs and treat mistakes as ours to learn from.
+Be direct and kind.
+We choose to share feedback regularly, directly, warmly, without delay, and trust each other to hear it.
+Open positions
+Featured roles
+BENEFITS
+Our benefits package is designed to power a high-performing team of tireless builders
+Full stack health
+Full health, vision, and dental insurance to keep you and your family well cared for.
+Time to recharge
+Take the time you need with Unlimited PTO, with an encouraged four weeks off to rest, reset, and build.
+Everyday boosts
+Generous programs that support commuter costs, dependent care needs, and fitness memberships.
+All-inclusive HQ
+Laptop on us, catered meals, stocked kitchens, and pets welcome—everything you need to do your best work.
+Invest in your future
+Meaningful equity and a 401(k) plan so you can grow your financial future as you help grow the company.
+Level-up budget
+$10,000 annual Learning & Development program to invest in your personal development.
+
+PAGE: https://vapi.ai/sales
+TITLE: Contact Sales - VAPI Close this dialog Close Cookie Preferences
+Emails observed on this page: 
+LinkedIn URLs observed on this page (not proof of person/profile association): https://www.linkedin.com/company/vapi-ai
+TEXT:
+Talk to a Voice AI expert
+Schedule a Demo
+Talk to a
+Voice AI expert
+Vapi Scale is built for teams that need reliability, scale, and support.
+- Custom real-time audio infrastructure with 99.9% uptime.
+- Scale to millions of calls with sub-500ms latency.
+- Conversational guardrails to keep you and your customers safe.
+- SOC2, HIPAA, & PCI compliant
+Trusted at enterprise scale

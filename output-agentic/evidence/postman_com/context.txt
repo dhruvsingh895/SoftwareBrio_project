@@ -1,0 +1,108 @@
+PAGE: https://www.postman.com/company/about-postman
+TITLE: About Postman
+Emails observed on this page: info-jp@postman.com, info@postman.com
+LinkedIn URLs observed on this page (not proof of person/profile association): https://www.linkedin.com/company/postman-platform
+TEXT:
+About Postman
+Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
+The founders
+Postman started simply as a side project to solve a specific problem: Abhinav Asthana, Postman's CEO and co-founder, set out to create a tool that would simplify the API testing process. As the tool's usage quickly exploded, Abhinav recruited two of his former colleagues, Ankit Sobti and Abhijit Kane, to help him create Postman, Inc. Postman is now the world's leading API platform, and the three founders still lead the company to this day.
+(Photo caption from left to right, Ankit Sobti, Abhinav Asthana, and Abhijit Kane).
+Our values
+At Postman, we create with the same curiosity that we see in our users. We value transparency and honest
+
+PAGE: https://www.postman.com/company/press-media
+TITLE: Press and Media | Postman
+Emails observed on this page: 
+LinkedIn URLs observed on this page (not proof of person/profile association): https://www.linkedin.com/company/postman-platform, https://www.linkedin.com/in/abhijitkane, https://www.linkedin.com/in/abhinavasthana, https://www.linkedin.com/in/ankit-sobti
+PROFILE CARD: {"linkedin_url": "https://www.linkedin.com/in/abhinavasthana", "headings": ["Abhinav Asthana"], "text": "Abhinav Asthana CEO/Co-Founder Abhinav is a developer and entrepreneur who began his career at Yahoo. He started Postman as a side project as he grappled with the complexity of connecting disparate pieces of software via APIs. Existing API tools were primitive, especially when it came to testing and debugging. This inspired Abhinav to create the free Postman app, which quickly drew 500,000 develop"}
+PROFILE CARD: {"linkedin_url": "https://www.linkedin.com/in/ankit-sobti", "headings": ["Ankit Sobti"], "text": "Ankit Sobti CTO/Co-Founder Ankit started his career in engineering roles at Adobe and Yahoo, where he met future Postman co-founder Abhinav. Together, they discovered the power of APIs, as well as the problems that could arise from a lack of effective tooling. This shortcoming spurred Ankit to help found Postman Inc. Ankit has experience in product, business, and development and now leads the core"}
+PROFILE CARD: {"linkedin_url": "https://www.linkedin.com/in/abhijitkane", "headings": ["Abhijit Kane"], "text": "Abhijit Kane Product Architect/Co-Founder Abhijit is a software engineer who began his career at Adobe, Walmart, and TeliportMe, which was Postman co-founder Abhinav's first startup. They were part of a small team building a complex API and needed to share information throughout the development cycle. During this time, usage of the Postman app exploded, and Abhijit joined Abhinav and Ankit in crea"}
+TEXT:
+Press releases
+Postman Announces Collaboration with Microsoft to Expand AI Model Choice, Accelerate Developer Workflows, and Unify API Governance
+Postman Integrates Anthropic’s Claude on Amazon Bedrock to Bring AI-Native API Development to 40 Million Developers
+Postman Unveils a New Era for AI-Native API Development
+Postman Acquires Fern to Help Businesses Deliver World-Class Developer Experiences
+Postman Acquires liblab to Accelerate Vision for a Unified API Lifecycle Platform
+Postman Advances Enterprise Readiness with New Product Enhancements for Building AI-Ready APIs
+One in Four Developers Now Design APIs for AI Agents, According to Postman’s 2025 State of the API Report
+Postman Announces New San Francisco Headquarters to Accelerate Growth and Innovation
+Postman Unveils Agent Mode: AI-Native Development Revolutionizes API Lifecycle
+Postman
+
+PAGE: https://www.postman.com/company/contact-us
+TITLE: Contact Us | Postman
+Emails observed on this page: info-jp@postman.com, info@postman.com
+LinkedIn URLs observed on this page (not proof of person/profile association): https://www.linkedin.com/company/postman-platform
+TEXT:
+General and media questions
+Contact sales
+Contact us
+Customer support
+Visit our Support Center to submit a ticket, ask the Postman community a question, or for account-specific issues.
+Our offices
+San Francisco (HQ)
+One Market Plaza
+1 Market Street
+Steuart Tower
+Suite 0800
+San Francisco, CA 94105
++1 415 796 6470
+info@postman.com
+Bangalore
+Building no 310
+6th Main Road Indiranagar,
+Bangalore, Karnataka 560038, India
+Tokyo
+Shin-Marunouchi Bldg
+10th Floor
+1-5-1 Marunouchi, Chiyoda-ku
+Tokyo 100-6510, Japan
+〒100-6510東京都千代田区丸の内1-5-1新丸の内ビルディング10F
++81-3-6843-3777
+info-jp@postman.com
+Join our team
+Join the Postman team and help us build the future of API-first software. Check out our open positions below.
+
+PAGE: https://www.postman.com/company/careers
+TITLE: Careers | Postman
+Emails observed on this page: accommodations@postman.com
+LinkedIn URLs observed on this page (not proof of person/profile association): https://www.linkedin.com/company/postman-platform
+TEXT:
+Become a Postmanaut!
+Join a global community on a mission to help build an API-first world.
+Join us
+We are a hybrid workplace and diversity-focused company. We hire and retain the best talent from around the globe by reaching a wide breadth of communities and tapping nontraditional paths to find our ideal teammates.
+At Postman, we offer a carefully curated blend of world-class benefits so that you can maintain a healthy work-life balance and peace of mind. Your loved ones will thank you for joining us!
+Our values
+Create with curiosity
+Earn trust
+Embrace constraints
+Win together
+Own & deliver
+Equal opportunity
+At Postman, diversity means we implement informed policies and practices to grow a company that reflects global experiences and identities while treating each person with fairness and dignity.
+Inclusion is the choice we make each day and with every interaction, to foster a workplace and
+
+PAGE: https://www.postman.com/company/contact-sales
+TITLE: Contact Our Sales Team & Get Started | Postman
+Emails observed on this page: help@postman.com
+LinkedIn URLs observed on this page (not proof of person/profile association): https://www.linkedin.com/company/postman-platform
+TEXT:
+Contact sales
+Computing is changing, so is Postman – Introducing Postman.ai Learn more →
+Tell us a little bit more about your organization and we'll get in touch with you. You can also reach our sales team directly by phone at (888) 616-1665.
+Looking for support? Visit the Postman Support Center or email help@postman.com
+
+PAGE: https://www.postman.com/
+TITLE: Postman: The World's Leading API Platform | Sign Up for Free
+Emails observed on this page: 
+LinkedIn URLs observed on this page (not proof of person/profile association): https://www.linkedin.com/company/postman-platform
+TEXT:
+The world's APIs are built and shipped on Postman.
+A NEW POSTMAN IS HERE
+The AI-native API Platform
+Develop, test, manage, and distribute APIs and services. Built for engineers. Designed for enterprise scale.
+Meet the AI Engineer
+Postman's AI Engineer takes on the work of building, testing, and maintaining APIs across your organization, grounded in the context of every service you already run.
