@@ -1,0 +1,131 @@
+1
+00:00:00,600 --> 00:00:03,073
+This is the Autonomous Lead Enrichment Agent.
+
+2
+00:00:03,193 --> 00:00:06,374
+It turns company domains into structured business intelligence.
+
+3
+00:00:06,494 --> 00:00:12,299
+This walkthrough shows actual project files and captured terminal results, with waiting time removed.
+
+4
+00:00:13,819 --> 00:00:18,277
+The project separates crawling, cleaning, extraction, and orchestration.
+
+5
+00:00:18,397 --> 00:00:23,866
+A simple JSON file supplies the three assignment targets: Postman, Supabase, and Vapi.
+
+6
+00:00:23,986 --> 00:00:27,561
+The README documents environment setup and local execution.
+
+7
+00:00:29,081 --> 00:00:33,099
+The command selects NVIDIA and enables the free tier only guard.
+
+8
+00:00:33,219 --> 00:00:37,352
+Playwright renders JavaScript pages and discovers relevant company links.
+
+9
+00:00:37,472 --> 00:00:43,787
+These terminal excerpts come from a real run, with concurrent processing and up to eight attempted pages per company.
+
+10
+00:00:46,081 --> 00:00:51,561
+The cleaner removes scripts, styles, SVG elements, and navigation boilerplate.
+
+11
+00:00:51,681 --> 00:00:56,813
+It extracts readable text while preserving contact signals and profile associations.
+
+12
+00:00:56,933 --> 00:00:59,615
+A bounded context reduces token use.
+
+13
+00:00:59,735 --> 00:01:04,483
+The language model receives clean evidence, rather than raw HTML trees.
+
+14
+00:01:06,003 --> 00:01:15,941
+Pydantic defines the required fields: a two sentence overview, target audience, public emails, leadership details, and confidence between zero and one.
+
+15
+00:01:16,061 --> 00:01:23,329
+The extractor validates the returned schema and checks that names, roles, and contact details have supporting evidence.
+
+16
+00:01:24,849 --> 00:01:28,344
+An earlier attempt encountered an NVIDIA server error for Postman.
+
+17
+00:01:28,464 --> 00:01:31,645
+Supabase and Vapi still completed and saved their results.
+
+18
+00:01:31,765 --> 00:01:35,074
+The pipeline records failures and uses bounded retries.
+
+19
+00:01:35,194 --> 00:01:41,266
+Missing pages, browser timeouts, and bot challenges are also handled without cancelling other companies.
+
+20
+00:01:42,786 --> 00:01:45,990
+Here is the actual Postman output from the completed batch.
+
+21
+00:01:46,110 --> 00:01:52,647
+It contains the company overview, intended audience, public contact emails, and leadership profiles.
+
+22
+00:01:52,767 --> 00:01:58,885
+Source pages and crawl errors remain attached, so a reviewer can inspect where the information came from.
+
+23
+00:02:00,786 --> 00:02:04,153
+The combined JSON contains records for all three targets.
+
+24
+00:02:04,273 --> 00:02:06,247
+Missing information is left empty.
+
+25
+00:02:06,367 --> 00:02:13,089
+In this evidence, Vapi has no supported leadership entries, and the optional Supabase profile search was blocked.
+
+26
+00:02:13,209 --> 00:02:16,576
+Confidence reflects the completeness of the available evidence.
+
+27
+00:02:18,096 --> 00:02:21,103
+The saved output verifier is run against this batch.
+
+28
+00:02:21,223 --> 00:02:27,387
+It checks the schema, two sentence summaries, entity evidence, page limits, and token totals.
+
+29
+00:02:27,507 --> 00:02:32,883
+The displayed validation is from an actual terminal execution, and all three records pass.
+
+30
+00:02:34,403 --> 00:02:38,582
+The summary records actual token usage and estimated cost per domain.
+
+31
+00:02:38,702 --> 00:02:42,650
+The zero dollar estimate uses the configured NVIDIA free tier rates.
+
+32
+00:02:42,770 --> 00:02:49,736
+The project includes modular code, dependencies, tests, setup instructions, and a three company sample output.
+
+33
+00:02:49,856 --> 00:02:50,552
+Thank you.

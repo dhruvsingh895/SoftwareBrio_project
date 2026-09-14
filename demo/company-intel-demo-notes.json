@@ -1,0 +1,23 @@
+{
+  "duration_seconds": 171.4724716553288,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 15,
+  "narration": "Synthetic, local Piper en_US-lessac-medium",
+  "visuals": "Rendered source-file views and captured terminal/output excerpts; not a continuous desktop recording.",
+  "completed_batch": "C:\\Users\\2k22a\\OneDrive\\Desktop\\pr\\output\\video-demo-retry",
+  "completed_at": "2026-09-14T13:04:25.338275+00:00",
+  "earlier_partial_batch": "C:\\Users\\2k22a\\OneDrive\\Desktop\\pr\\output\\video-demo",
+  "validation_command": [
+    "C:\\Users\\2k22a\\OneDrive\\Desktop\\pr\\.venv\\Scripts\\python.exe",
+    "verify_outputs.py",
+    "C:\\Users\\2k22a\\OneDrive\\Desktop\\pr\\output\\video-demo-retry"
+  ],
+  "validation_exit_code": 0,
+  "all_records_valid": true,
+  "summary_sha256": "330c382bc0fa829ddd70811a5ff8e80733fb9fed56bc7c474af158f96c6fca98",
+  "narration_source": "https://github.com/OHF-Voice/piper1-gpl/blob/main/docs/API_PYTHON.md",
+  "voice_model": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/lessac/medium/MODEL_CARD"
+}

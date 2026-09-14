@@ -2,7 +2,7 @@
 
 Python 3.11+ project that renders public websites in headless Chromium, extracts clean text, and produces company records through a strict Pydantic-derived tool schema. Each domain produces JSON even if crawling or extraction fails. The batch also saves a summary, cost table, log and cleaned evidence.
 
-Supports **NVIDIA API Catalog** and Anthropic. The supplied live run uses NVIDIA's free Developer Program prototyping tier. See `RUN_REPORT.md` for results, `AUDIT_REPORT.md` for the rubric audit, and `output/summary.json` for actual usage. The submitter is recording the walkthrough separately.
+Supports **NVIDIA API Catalog** and Anthropic. The supplied live run uses NVIDIA's free Developer Program prototyping tier. See `RUN_REPORT.md` for results, `AUDIT_REPORT.md` for the rubric audit, and `output/summary.json` for actual usage. A narrated demonstration, captions and recording script are included under [`demo/`](demo/README.md).
 
 ## Submission sample
 
@@ -16,6 +16,24 @@ files and detailed summary. For example, the command below generates a fresh com
 
 ```text
 python main.py --provider nvidia --free-tier-only --domains-file domains.json --output-dir output
+```
+
+## Demonstration and latest recorded results
+
+- [Watch or download the 2:51 MP4](demo/company-intel-demo.mp4) — 1080p, synthetic narration and captions.
+- [Demo guide, transcript, checks and regeneration instructions](demo/README.md).
+- [Latest completed three-company output](output/video-demo-retry/output.json), generated on 2026-09-14 for the video.
+- [Submission email draft](submission-email.md), including the explicit operations-question answer.
+
+The video uses rendered code views and excerpts from actual terminal output; waiting time is removed.
+The earlier attempt in `output/video-demo/` records an NVIDIA HTTP 500 for Postman while the other
+two companies completed. The retry in `output/video-demo-retry/` completed and validates all three.
+The original root `output.json` remains the original verified submission sample.
+
+Recheck the completed video batch without browser or API calls:
+
+```powershell
+.\.venv\Scripts\python.exe verify_outputs.py output/video-demo-retry
 ```
 
 ## Setup and free-tier run

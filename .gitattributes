@@ -5,3 +5,8 @@
 *.toml text eol=lf
 *.txt text eol=lf
 *.whl binary
+*.mp4 binary
+*.srt text eol=lf
+# Preserve captured evidence bytes and their recorded hashes.
+output/video-demo/** -text -whitespace
+output/video-demo-retry/** -text -whitespace

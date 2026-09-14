@@ -1,0 +1,32 @@
+Autonomous Lead Enrichment Agent — narration transcript
+Synthetic narration. Actual source and run artifacts; waiting time removed.
+
+00:00:00,000 — Autonomous lead enrichment
+This is the Autonomous Lead Enrichment Agent. It turns company domains into structured business intelligence. This walkthrough shows actual project files and captured terminal results, with waiting time removed.
+
+00:00:13,219 — A modular Python pipeline
+The project separates crawling, cleaning, extraction, and orchestration. A simple JSON file supplies the three assignment targets: Postman, Supabase, and Vapi. The README documents environment setup and local execution.
+
+00:00:28,481 — Run the three target domains
+The command selects NVIDIA and enables the free tier only guard. Playwright renders JavaScript pages and discovers relevant company links. These terminal excerpts come from a real run, with concurrent processing and up to eight attempted pages per company.
+
+00:00:45,481 — Clean evidence before inference
+The cleaner removes scripts, styles, SVG elements, and navigation boilerplate. It extracts readable text while preserving contact signals and profile associations. A bounded context reduces token use. The language model receives clean evidence, rather than raw HTML trees.
+
+00:01:05,403 — A strict output contract
+Pydantic defines the required fields: a two sentence overview, target audience, public emails, leadership details, and confidence between zero and one. The extractor validates the returned schema and checks that names, roles, and contact details have supporting evidence.
+
+00:01:24,249 — Failures stay isolated
+An earlier attempt encountered an NVIDIA server error for Postman. Supabase and Vapi still completed and saved their results. The pipeline records failures and uses bounded retries. Missing pages, browser timeouts, and bot challenges are also handled without cancelling other companies.
+
+00:01:42,186 — Inspect the extracted intelligence
+Here is the actual Postman output from the completed batch. It contains the company overview, intended audience, public contact emails, and leadership profiles. Source pages and crawl errors remain attached, so a reviewer can inspect where the information came from.
+
+00:02:00,186 — Show all three companies
+The combined JSON contains records for all three targets. Missing information is left empty. In this evidence, Vapi has no supported leadership entries, and the optional Supabase profile search was blocked. Confidence reflects the completeness of the available evidence.
+
+00:02:17,496 — Validate the saved artifacts
+The saved output verifier is run against this batch. It checks the schema, two sentence summaries, entity evidence, page limits, and token totals. The displayed validation is from an actual terminal execution, and all three records pass.
+
+00:02:33,803 — Usage, documentation, deliverables
+The summary records actual token usage and estimated cost per domain. The zero dollar estimate uses the configured NVIDIA free tier rates. The project includes modular code, dependencies, tests, setup instructions, and a three company sample output. Thank you.

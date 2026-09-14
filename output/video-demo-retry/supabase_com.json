@@ -1,0 +1,55 @@
+{
+  "company_overview": "Supabase is an open-source development platform that provides a Postgres database with integrated tools for authentication, data APIs, edge functions, realtime data, storage, and vector embeddings. It enables developers to build applications quickly and scale to millions while staying productive within a unified dashboard.",
+  "target_audience": "Developers and engineering teams building web and mobile applications who need a scalable backend with database, authentication, APIs, and realtime capabilities.",
+  "contact_points": [
+    {
+      "type": "privacy",
+      "email": "privacy@supabase.com"
+    },
+    {
+      "type": "abuse",
+      "email": "abuse@supabase.com"
+    },
+    {
+      "type": "security",
+      "email": "security@supabase.com"
+    },
+    {
+      "type": "events",
+      "email": "help-events@supabase.com"
+    },
+    {
+      "type": "legal",
+      "email": "legal@supabase.com"
+    }
+  ],
+  "leadership": [
+    {
+      "name": "Tracy Lane",
+      "role": "General Counsel of Supabase, Inc.",
+      "linkedin_url": null,
+      "source": "site"
+    }
+  ],
+  "confidence_score": 0.7,
+  "domain": "supabase.com",
+  "pages_crawled": [
+    "https://supabase.com/",
+    "https://supabase.com/company",
+    "https://supabase.com/careers",
+    "https://supabase.com/contact/sales",
+    "https://supabase.com/contact-us",
+    "https://supabase.com/support"
+  ],
+  "crawl_errors": [
+    "LinkedIn search: search provider unavailable or bot-blocked",
+    "https://supabase.com/about: navigation timeout on attempt 1",
+    "https://supabase.com/about: HTTP error 404; skipped",
+    "https://supabase.com/about-us: HTTP error 404; skipped"
+  ],
+  "token_usage": {
+    "input_tokens": 2326,
+    "output_tokens": 258
+  },
+  "estimated_cost_usd": 0.0
+}

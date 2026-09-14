@@ -1,0 +1,36 @@
+{
+  "company_overview": "Vapi provides a unified platform for building, testing, and deploying advanced voice AI agents at enterprise scale. The platform offers orchestration, real-time monitoring, enterprise-grade configurability, and infrastructure management to enable rapid development from prompt to production.",
+  "target_audience": "Enterprises and developers building voice AI agents who require scalability, reliability, security compliance, and dedicated support for production deployments.",
+  "contact_points": [
+    {
+      "type": "recruiting",
+      "email": "talent@vapi.ai"
+    }
+  ],
+  "leadership": [],
+  "confidence_score": 0.4,
+  "domain": "vapi.ai",
+  "pages_crawled": [
+    "https://vapi.ai/",
+    "https://vapi.ai/sales",
+    "https://vapi.ai/pricing",
+    "https://vapi.ai/careers"
+  ],
+  "crawl_errors": [
+    "https://vapi.ai/: networkidle timeout; used domcontentloaded fallback",
+    "https://vapi.ai/: page JavaScript error: propensity is not defined",
+    "https://vapi.ai/: page JavaScript error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpfu",
+    "https://vapi.ai/sales: page JavaScript error: propensity is not defined",
+    "https://vapi.ai/pricing: page JavaScript error: propensity is not defined",
+    "https://vapi.ai/careers: page JavaScript error: propensity is not defined",
+    "https://vapi.ai/about: HTTP error 404; skipped",
+    "https://vapi.ai/about-us: HTTP error 404; skipped",
+    "https://vapi.ai/company: HTTP error 404; skipped",
+    "https://vapi.ai/team: HTTP error 404; skipped"
+  ],
+  "token_usage": {
+    "input_tokens": 2684,
+    "output_tokens": 140
+  },
+  "estimated_cost_usd": 0.0
+}

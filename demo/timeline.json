@@ -1,0 +1,257 @@
+[
+  {
+    "id": "intro",
+    "title": "Autonomous lead enrichment",
+    "narration": "This is the Autonomous Lead Enrichment Agent. It turns company domains into structured business intelligence. This walkthrough shows actual project files and captured terminal results, with waiting time removed.",
+    "start": 0.0,
+    "duration": 13.219047619047618,
+    "captions": [
+      {
+        "start": 0.6,
+        "end": 3.0729251700680273,
+        "text": "This is the Autonomous Lead Enrichment Agent."
+      },
+      {
+        "start": 3.192925170068027,
+        "end": 6.3740589569161,
+        "text": "It turns company domains into structured business intelligence."
+      },
+      {
+        "start": 6.4940589569161,
+        "end": 12.299047619047618,
+        "text": "This walkthrough shows actual project files and captured terminal results, with waiting time removed."
+      }
+    ]
+  },
+  {
+    "id": "structure",
+    "title": "A modular Python pipeline",
+    "narration": "The project separates crawling, cleaning, extraction, and orchestration. A simple JSON file supplies the three assignment targets: Postman, Supabase, and Vapi. The README documents environment setup and local execution.",
+    "start": 13.219047619047618,
+    "duration": 15.262403628117914,
+    "captions": [
+      {
+        "start": 0.6,
+        "end": 5.058231292517007,
+        "text": "The project separates crawling, cleaning, extraction, and orchestration."
+      },
+      {
+        "start": 5.178231292517006,
+        "end": 10.646530612244899,
+        "text": "A simple JSON file supplies the three assignment targets: Postman, Supabase, and Vapi."
+      },
+      {
+        "start": 10.766530612244898,
+        "end": 14.342403628117914,
+        "text": "The README documents environment setup and local execution."
+      }
+    ]
+  },
+  {
+    "id": "run",
+    "title": "Run the three target domains",
+    "narration": "The command selects NVIDIA and enables the free tier only guard. Playwright renders JavaScript pages and discovers relevant company links. These terminal excerpts come from a real run, with concurrent processing and up to eight attempted pages per company.",
+    "start": 28.48145124716553,
+    "duration": 17.0,
+    "captions": [
+      {
+        "start": 0.6,
+        "end": 4.617052154195012,
+        "text": "The command selects NVIDIA and enables the free tier only guard."
+      },
+      {
+        "start": 4.737052154195012,
+        "end": 8.870204081632654,
+        "text": "Playwright renders JavaScript pages and discovers relevant company links."
+      },
+      {
+        "start": 8.990204081632653,
+        "end": 15.306031746031746,
+        "text": "These terminal excerpts come from a real run, with concurrent processing and up to eight attempted pages per company."
+      }
+    ]
+  },
+  {
+    "id": "clean",
+    "title": "Clean evidence before inference",
+    "narration": "The cleaner removes scripts, styles, SVG elements, and navigation boilerplate. It extracts readable text while preserving contact signals and profile associations. A bounded context reduces token use. The language model receives clean evidence, rather than raw HTML trees.",
+    "start": 45.48145124716553,
+    "duration": 19.921904761904763,
+    "captions": [
+      {
+        "start": 0.6,
+        "end": 6.079909297052154,
+        "text": "The cleaner removes scripts, styles, SVG elements, and navigation boilerplate."
+      },
+      {
+        "start": 6.199909297052154,
+        "end": 11.331519274376417,
+        "text": "It extracts readable text while preserving contact signals and profile associations."
+      },
+      {
+        "start": 11.451519274376418,
+        "end": 14.133424036281179,
+        "text": "A bounded context reduces token use."
+      },
+      {
+        "start": 14.25342403628118,
+        "end": 19.00190476190476,
+        "text": "The language model receives clean evidence, rather than raw HTML trees."
+      }
+    ]
+  },
+  {
+    "id": "schema",
+    "title": "A strict output contract",
+    "narration": "Pydantic defines the required fields: a two sentence overview, target audience, public emails, leadership details, and confidence between zero and one. The extractor validates the returned schema and checks that names, roles, and contact details have supporting evidence.",
+    "start": 65.4033560090703,
+    "duration": 18.845986394557823,
+    "captions": [
+      {
+        "start": 0.6,
+        "end": 10.538140589569162,
+        "text": "Pydantic defines the required fields: a two sentence overview, target audience, public emails, leadership details, and confidence between zero and one."
+      },
+      {
+        "start": 10.658140589569161,
+        "end": 17.925986394557825,
+        "text": "The extractor validates the returned schema and checks that names, roles, and contact details have supporting evidence."
+      }
+    ]
+  },
+  {
+    "id": "resilience",
+    "title": "Failures stay isolated",
+    "narration": "An earlier attempt encountered an NVIDIA server error for Postman. Supabase and Vapi still completed and saved their results. The pipeline records failures and uses bounded retries. Missing pages, browser timeouts, and bot challenges are also handled without cancelling other companies.",
+    "start": 84.24934240362812,
+    "duration": 17.93659863945578,
+    "captions": [
+      {
+        "start": 0.6,
+        "end": 4.094603174603175,
+        "text": "An earlier attempt encountered an NVIDIA server error for Postman."
+      },
+      {
+        "start": 4.214603174603175,
+        "end": 7.395736961451247,
+        "text": "Supabase and Vapi still completed and saved their results."
+      },
+      {
+        "start": 7.515736961451247,
+        "end": 10.824580498866213,
+        "text": "The pipeline records failures and uses bounded retries."
+      },
+      {
+        "start": 10.944580498866213,
+        "end": 17.016598639455783,
+        "text": "Missing pages, browser timeouts, and bot challenges are also handled without cancelling other companies."
+      }
+    ]
+  },
+  {
+    "id": "postman",
+    "title": "Inspect the extracted intelligence",
+    "narration": "Here is the actual Postman output from the completed batch. It contains the company overview, intended audience, public contact emails, and leadership profiles. Source pages and crawl errors remain attached, so a reviewer can inspect where the information came from.",
+    "start": 102.1859410430839,
+    "duration": 18.0,
+    "captions": [
+      {
+        "start": 0.6,
+        "end": 3.8043537414965987,
+        "text": "Here is the actual Postman output from the completed batch."
+      },
+      {
+        "start": 3.9243537414965988,
+        "end": 10.46077097505669,
+        "text": "It contains the company overview, intended audience, public contact emails, and leadership profiles."
+      },
+      {
+        "start": 10.580770975056689,
+        "end": 16.69922902494331,
+        "text": "Source pages and crawl errors remain attached, so a reviewer can inspect where the information came from."
+      }
+    ]
+  },
+  {
+    "id": "coverage",
+    "title": "Show all three companies",
+    "narration": "The combined JSON contains records for all three targets. Missing information is left empty. In this evidence, Vapi has no supported leadership entries, and the optional Supabase profile search was blocked. Confidence reflects the completeness of the available evidence.",
+    "start": 120.1859410430839,
+    "duration": 17.30965986394558,
+    "captions": [
+      {
+        "start": 0.6,
+        "end": 3.966893424036281,
+        "text": "The combined JSON contains records for all three targets."
+      },
+      {
+        "start": 4.0868934240362815,
+        "end": 6.060589569160998,
+        "text": "Missing information is left empty."
+      },
+      {
+        "start": 6.180589569160998,
+        "end": 12.902766439909296,
+        "text": "In this evidence, Vapi has no supported leadership entries, and the optional Supabase profile search was blocked."
+      },
+      {
+        "start": 13.022766439909297,
+        "end": 16.389659863945578,
+        "text": "Confidence reflects the completeness of the available evidence."
+      }
+    ]
+  },
+  {
+    "id": "validation",
+    "title": "Validate the saved artifacts",
+    "narration": "The saved output verifier is run against this batch. It checks the schema, two sentence summaries, entity evidence, page limits, and token totals. The displayed validation is from an actual terminal execution, and all three records pass.",
+    "start": 137.49560090702948,
+    "duration": 16.307301587301588,
+    "captions": [
+      {
+        "start": 0.6,
+        "end": 3.606984126984127,
+        "text": "The saved output verifier is run against this batch."
+      },
+      {
+        "start": 3.726984126984127,
+        "end": 9.8918820861678,
+        "text": "It checks the schema, two sentence summaries, entity evidence, page limits, and token totals."
+      },
+      {
+        "start": 10.0118820861678,
+        "end": 15.387301587301588,
+        "text": "The displayed validation is from an actual terminal execution, and all three records pass."
+      }
+    ]
+  },
+  {
+    "id": "finish",
+    "title": "Usage, documentation, deliverables",
+    "narration": "The summary records actual token usage and estimated cost per domain. The zero dollar estimate uses the configured NVIDIA free tier rates. The project includes modular code, dependencies, tests, setup instructions, and a three company sample output. Thank you.",
+    "start": 153.80290249433108,
+    "duration": 17.66956916099773,
+    "captions": [
+      {
+        "start": 0.6,
+        "end": 4.779591836734694,
+        "text": "The summary records actual token usage and estimated cost per domain."
+      },
+      {
+        "start": 4.899591836734694,
+        "end": 8.846984126984127,
+        "text": "The zero dollar estimate uses the configured NVIDIA free tier rates."
+      },
+      {
+        "start": 8.966984126984126,
+        "end": 15.93297052154195,
+        "text": "The project includes modular code, dependencies, tests, setup instructions, and a three company sample output."
+      },
+      {
+        "start": 16.05297052154195,
+        "end": 16.749569160997734,
+        "text": "Thank you."
+      }
+    ]
+  }
+]

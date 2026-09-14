@@ -11,3 +11,4 @@ output-agentic/
 build/
 *.egg-info/
 dist/
+.demo-work/

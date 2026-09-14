@@ -1,0 +1,124 @@
+[
+  {
+    "company_overview": "",
+    "target_audience": "",
+    "contact_points": [],
+    "leadership": [],
+    "confidence_score": 0.0,
+    "domain": "postman.com",
+    "pages_crawled": [
+      "https://www.postman.com/",
+      "https://www.postman.com/company/about-postman",
+      "https://www.postman.com/company/press-media",
+      "https://www.postman.com/company/contact-sales",
+      "https://www.postman.com/company/careers",
+      "https://www.postman.com/company/contact-us"
+    ],
+    "crawl_errors": [
+      "domain failure: NvidiaAPIError: NVIDIA API HTTP 500",
+      "https://postman.com/: networkidle timeout; used domcontentloaded fallback",
+      "https://www.postman.com/company/about-postman: networkidle timeout; used domcontentloaded fallback",
+      "https://www.postman.com/company/press-media: networkidle timeout; used domcontentloaded fallback",
+      "https://www.postman.com/company/contact-sales: networkidle timeout; used domcontentloaded fallback",
+      "https://www.postman.com/company/careers: networkidle timeout; used domcontentloaded fallback",
+      "https://www.postman.com/company/contact-us: networkidle timeout; used domcontentloaded fallback",
+      "https://www.postman.com/about: networkidle timeout; used domcontentloaded fallback",
+      "https://www.postman.com/about-us: networkidle timeout; used domcontentloaded fallback"
+    ],
+    "token_usage": {
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    "estimated_cost_usd": 0.0
+  },
+  {
+    "company_overview": "Supabase is an open-source development platform that provides a Postgres database with authentication, data APIs, edge functions, realtime data, storage, and vector embeddings. It enables developers to build applications quickly and scale to millions of users.",
+    "target_audience": "Developers and engineering teams building applications who need a scalable backend platform with database, authentication, and API capabilities.",
+    "contact_points": [
+      {
+        "type": "privacy",
+        "email": "privacy@supabase.com"
+      },
+      {
+        "type": "abuse",
+        "email": "abuse@supabase.com"
+      },
+      {
+        "type": "security",
+        "email": "security@supabase.com"
+      },
+      {
+        "type": "events",
+        "email": "help-events@supabase.com"
+      },
+      {
+        "type": "legal",
+        "email": "legal@supabase.com"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Tracy Lane",
+        "role": "General Counsel of Supabase, Inc.",
+        "linkedin_url": null,
+        "source": "site"
+      }
+    ],
+    "confidence_score": 0.7,
+    "domain": "supabase.com",
+    "pages_crawled": [
+      "https://supabase.com/",
+      "https://supabase.com/company",
+      "https://supabase.com/careers",
+      "https://supabase.com/contact/sales",
+      "https://supabase.com/contact-us",
+      "https://supabase.com/support"
+    ],
+    "crawl_errors": [
+      "LinkedIn search: search provider unavailable or bot-blocked",
+      "https://supabase.com/about: HTTP error 404; skipped",
+      "https://supabase.com/about-us: HTTP error 404; skipped"
+    ],
+    "token_usage": {
+      "input_tokens": 2326,
+      "output_tokens": 245
+    },
+    "estimated_cost_usd": 0.0
+  },
+  {
+    "company_overview": "Vapi provides a unified platform for building, testing, and deploying advanced voice AI agents at enterprise scale. The platform offers orchestration, real-time monitoring, enterprise-grade configurability, and infrastructure management to enable rapid development from prompt to production.",
+    "target_audience": "Enterprises and developers building voice AI agents who require scalability, reliability, security compliance, and dedicated support for production deployments.",
+    "contact_points": [
+      {
+        "type": "recruiting",
+        "email": "talent@vapi.ai"
+      }
+    ],
+    "leadership": [],
+    "confidence_score": 0.4,
+    "domain": "vapi.ai",
+    "pages_crawled": [
+      "https://vapi.ai/",
+      "https://vapi.ai/sales",
+      "https://vapi.ai/pricing",
+      "https://vapi.ai/careers"
+    ],
+    "crawl_errors": [
+      "https://vapi.ai/: networkidle timeout; used domcontentloaded fallback",
+      "https://vapi.ai/: page JavaScript error: propensity is not defined",
+      "https://vapi.ai/: page JavaScript error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpfu",
+      "https://vapi.ai/sales: page JavaScript error: propensity is not defined",
+      "https://vapi.ai/pricing: page JavaScript error: propensity is not defined",
+      "https://vapi.ai/careers: page JavaScript error: propensity is not defined",
+      "https://vapi.ai/about: HTTP error 404; skipped",
+      "https://vapi.ai/about-us: HTTP error 404; skipped",
+      "https://vapi.ai/company: HTTP error 404; skipped",
+      "https://vapi.ai/team: HTTP error 404; skipped"
+    ],
+    "token_usage": {
+      "input_tokens": 2684,
+      "output_tokens": 140
+    },
+    "estimated_cost_usd": 0.0
+  }
+]

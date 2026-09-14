@@ -1,0 +1,32 @@
+{
+  "company_overview": "",
+  "target_audience": "",
+  "contact_points": [],
+  "leadership": [],
+  "confidence_score": 0.0,
+  "domain": "postman.com",
+  "pages_crawled": [
+    "https://www.postman.com/",
+    "https://www.postman.com/company/about-postman",
+    "https://www.postman.com/company/press-media",
+    "https://www.postman.com/company/contact-sales",
+    "https://www.postman.com/company/careers",
+    "https://www.postman.com/company/contact-us"
+  ],
+  "crawl_errors": [
+    "domain failure: NvidiaAPIError: NVIDIA API HTTP 500",
+    "https://postman.com/: networkidle timeout; used domcontentloaded fallback",
+    "https://www.postman.com/company/about-postman: networkidle timeout; used domcontentloaded fallback",
+    "https://www.postman.com/company/press-media: networkidle timeout; used domcontentloaded fallback",
+    "https://www.postman.com/company/contact-sales: networkidle timeout; used domcontentloaded fallback",
+    "https://www.postman.com/company/careers: networkidle timeout; used domcontentloaded fallback",
+    "https://www.postman.com/company/contact-us: networkidle timeout; used domcontentloaded fallback",
+    "https://www.postman.com/about: networkidle timeout; used domcontentloaded fallback",
+    "https://www.postman.com/about-us: networkidle timeout; used domcontentloaded fallback"
+  ],
+  "token_usage": {
+    "input_tokens": 0,
+    "output_tokens": 0
+  },
+  "estimated_cost_usd": 0.0
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "directory": "video-demo-retry",
+    "all_records_valid": true,
+    "checks": [
+      {
+        "domain": "postman.com",
+        "schema_valid": true,
+        "record_matches_summary": true,
+        "clean_context_chars": 7460,
+        "pages": 6,
+        "attempts": 8,
+        "actual_llm_calls": 1,
+        "token_usage": {
+          "input_tokens": 2760,
+          "output_tokens": 338
+        },
+        "two_sentence_overview": true,
+        "literal_entity_evidence_valid": true,
+        "associated_site_profiles": 3,
+        "search_statuses": []
+      },
+      {
+        "domain": "supabase.com",
+        "schema_valid": true,
+        "record_matches_summary": true,
+        "clean_context_chars": 6352,
+        "pages": 6,
+        "attempts": 8,
+        "actual_llm_calls": 1,
+        "token_usage": {
+          "input_tokens": 2326,
+          "output_tokens": 258
+        },
+        "two_sentence_overview": true,
+        "literal_entity_evidence_valid": true,
+        "associated_site_profiles": 0,
+        "search_statuses": [
+          "blocked"
+        ]
+      },
+      {
+        "domain": "vapi.ai",
+        "schema_valid": true,
+        "record_matches_summary": true,
+        "clean_context_chars": 7466,
+        "pages": 4,
+        "attempts": 8,
+        "actual_llm_calls": 1,
+        "token_usage": {
+          "input_tokens": 2684,
+          "output_tokens": 162
+        },
+        "two_sentence_overview": true,
+        "literal_entity_evidence_valid": true,
+        "associated_site_profiles": 0,
+        "search_statuses": []
+      }
+    ]
+  }
+]

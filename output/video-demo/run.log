@@ -1,0 +1,97 @@
+2026-09-14 18:28:19,932 INFO company_intel.crawler [postman.com] Fetch https://postman.com/ (1/8)
+2026-09-14 18:28:19,977 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/ (1/8)
+2026-09-14 18:28:20,021 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/ (1/8)
+2026-09-14 18:28:27,059 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/company (2/8)
+2026-09-14 18:28:32,946 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/careers (3/8)
+2026-09-14 18:28:35,043 WARNING company_intel.crawler [postman.com] https://postman.com/: networkidle timeout; used domcontentloaded fallback
+2026-09-14 18:28:35,047 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/: networkidle timeout; used domcontentloaded fallback
+2026-09-14 18:28:38,819 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/: page JavaScript error: propensity is not defined
+2026-09-14 18:28:38,820 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/: page JavaScript error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpfu
+2026-09-14 18:28:39,107 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/about-postman (2/8)
+2026-09-14 18:28:39,471 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/sales (2/8)
+2026-09-14 18:28:40,248 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/contact/sales (4/8)
+2026-09-14 18:28:45,182 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/sales: page JavaScript error: propensity is not defined
+2026-09-14 18:28:45,348 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/pricing (3/8)
+2026-09-14 18:28:45,961 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/contact-us (5/8)
+2026-09-14 18:28:51,040 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/support (6/8)
+2026-09-14 18:28:52,836 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/pricing: page JavaScript error: propensity is not defined
+2026-09-14 18:28:53,027 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/careers (4/8)
+2026-09-14 18:28:54,126 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/about-postman: networkidle timeout; used domcontentloaded fallback
+2026-09-14 18:28:55,092 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/press-media (3/8)
+2026-09-14 18:28:55,679 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/about (7/8)
+2026-09-14 18:28:59,105 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/careers: page JavaScript error: propensity is not defined
+2026-09-14 18:28:59,270 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/about (5/8)
+2026-09-14 18:28:59,548 WARNING company_intel.crawler [supabase.com] https://supabase.com/about: HTTP error 404; skipped
+2026-09-14 18:28:59,745 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/about-us (8/8)
+2026-09-14 18:29:03,430 WARNING company_intel.crawler [supabase.com] https://supabase.com/about-us: HTTP error 404; skipped
+2026-09-14 18:29:04,134 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/about: HTTP error 404; skipped
+2026-09-14 18:29:04,303 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/about-us (6/8)
+2026-09-14 18:29:08,796 INFO company_intel.pipeline [supabase.com] completed | pages=6 | input=2326 output=245 | $0.000000 | confidence=0.70
+2026-09-14 18:29:08,834 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/about-us: HTTP error 404; skipped
+2026-09-14 18:29:08,994 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/company (7/8)
+2026-09-14 18:29:10,098 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/press-media: networkidle timeout; used domcontentloaded fallback
+2026-09-14 18:29:11,209 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/contact-sales (4/8)
+2026-09-14 18:29:13,389 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/company: HTTP error 404; skipped
+2026-09-14 18:29:13,552 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/team (8/8)
+2026-09-14 18:29:18,480 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/team: HTTP error 404; skipped
+2026-09-14 18:29:21,031 INFO company_intel.pipeline [vapi.ai] completed | pages=4 | input=2684 output=140 | $0.000000 | confidence=0.40
+2026-09-14 18:29:26,221 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/contact-sales: networkidle timeout; used domcontentloaded fallback
+2026-09-14 18:29:27,496 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/careers (5/8)
+2026-09-14 18:29:42,501 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/careers: networkidle timeout; used domcontentloaded fallback
+2026-09-14 18:29:43,459 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/contact-us (6/8)
+2026-09-14 18:29:58,470 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/contact-us: networkidle timeout; used domcontentloaded fallback
+2026-09-14 18:29:59,409 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/about (7/8)
+2026-09-14 18:30:14,429 WARNING company_intel.crawler [postman.com] https://www.postman.com/about: networkidle timeout; used domcontentloaded fallback
+2026-09-14 18:30:15,167 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/about-us (8/8)
+2026-09-14 18:30:30,177 WARNING company_intel.crawler [postman.com] https://www.postman.com/about-us: networkidle timeout; used domcontentloaded fallback
+2026-09-14 18:30:33,863 ERROR company_intel.pipeline [postman.com] Domain failed; batch continues
+Traceback (most recent call last):
+  File "C:\Users\2k22a\OneDrive\Desktop\pr\company_intel\pipeline.py", line 87, in process_domain
+    facts = await extractor.extract(domain, outcome.context, outcome.record.crawl_errors, cards)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2k22a\OneDrive\Desktop\pr\company_intel\extractor.py", line 221, in extract
+    response = await api_retry(
+               ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\2k22a\OneDrive\Desktop\pr\company_intel\extractor.py", line 115, in api_retry
+    async for attempt in AsyncRetrying(
+    ...<4 lines>...
+            return await call(**kwargs)
+  File "C:\Users\2k22a\OneDrive\Desktop\pr\.venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 170, in __anext__
+    do = await self.iter(retry_state=self._retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2k22a\OneDrive\Desktop\pr\.venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2k22a\OneDrive\Desktop\pr\.venv\Lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "C:\Users\2k22a\OneDrive\Desktop\pr\.venv\Lib\site-packages\tenacity\__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\2k22a\OneDrive\Desktop\pr\.venv\Lib\site-packages\tenacity\__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\2k22a\AppData\Local\Programs\Python\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\2k22a\AppData\Local\Programs\Python\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Users\2k22a\OneDrive\Desktop\pr\company_intel\extractor.py", line 120, in api_retry
+    return await call(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2k22a\OneDrive\Desktop\pr\company_intel\nvidia.py", line 130, in create
+    raise NvidiaAPIError(response.status_code, response.headers.get("x-request-id", ""),
+                         response.headers.get("retry-after"))
+company_intel.nvidia.NvidiaAPIError: NVIDIA API HTTP 500
+2026-09-14 18:30:33,992 INFO company_intel.pipeline [postman.com] failed | pages=6 | input=0 output=0 | $0.000000 | confidence=0.00
+2026-09-14 18:30:35,640 INFO company_intel.pipeline 
+| Domain | Status | Pages | Input tokens | Output tokens | Cost USD | Confidence |
+|---|---|---:|---:|---:|---:|---:|
+| postman.com | failed | 6 | 0 | 0 | 0.000000 | 0.00 |
+| supabase.com | completed | 6 | 2326 | 245 | 0.000000 | 0.70 |
+| vapi.ai | completed | 4 | 2684 | 140 | 0.000000 | 0.40 |
+
+Total estimated LLM cost: $0.000000
+
