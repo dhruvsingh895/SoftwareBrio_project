@@ -1,0 +1,277 @@
+[
+  {
+    "id": "intro",
+    "title": "The working project",
+    "narration": "This is a screen recording of the lead enrichment project in a local browser workspace. The source viewer reads actual project files, and the terminal runs the Python program. Narration is synthetic.",
+    "start": 0.0,
+    "duration": 14.0,
+    "captions": [
+      {
+        "start": 0.44997732426303855,
+        "end": 5.105578231292517,
+        "text": "This is a screen recording of the lead enrichment project in a local browser workspace."
+      },
+      {
+        "start": 5.225578231292517,
+        "end": 10.682267573696144,
+        "text": "The source viewer reads actual project files, and the terminal runs the Python program."
+      },
+      {
+        "start": 10.802267573696145,
+        "end": 12.079365079365079,
+        "text": "Narration is synthetic."
+      }
+    ]
+  },
+  {
+    "id": "structure",
+    "title": "Code structure and input",
+    "narration": "The project separates crawling, cleaning, extraction, and orchestration. The input is a JSON array containing the three assignment targets: Postman, Supabase, and Vapi. The README explains environment setup and local execution.",
+    "start": 14.0,
+    "duration": 14.919501133786849,
+    "captions": [
+      {
+        "start": 0.44997732426303855,
+        "end": 4.838548752834467,
+        "text": "The project separates crawling, cleaning, extraction, and orchestration."
+      },
+      {
+        "start": 4.958548752834467,
+        "end": 10.647437641723355,
+        "text": "The input is a JSON array containing the three assignment targets: Postman, Supabase, and Vapi."
+      },
+      {
+        "start": 10.767437641723356,
+        "end": 14.099501133786848,
+        "text": "The README explains environment setup and local execution."
+      }
+    ]
+  },
+  {
+    "id": "run",
+    "title": "Execute the Python pipeline",
+    "narration": "I am starting the command with NVIDIA and the free tier only guard enabled. This terminal displays the actual process output. The three companies are processed concurrently, using headless Chromium to render their public websites.",
+    "start": 28.91950113378685,
+    "duration": 16.0,
+    "captions": [
+      {
+        "start": 0.44997732426303855,
+        "end": 4.165170068027211,
+        "text": "I am starting the command with NVIDIA and the free tier only guard enabled."
+      },
+      {
+        "start": 4.2851700680272105,
+        "end": 7.315374149659864,
+        "text": "This terminal displays the actual process output."
+      },
+      {
+        "start": 7.4353741496598635,
+        "end": 12.822403628117915,
+        "text": "The three companies are processed concurrently, using headless Chromium to render their public websites."
+      }
+    ]
+  },
+  {
+    "id": "clean",
+    "title": "Clean context before extraction",
+    "narration": "The crawler discovers relevant company links. The cleaner removes scripts, styles, SVG elements, and navigation boilerplate. It preserves readable text, public emails, and profile associations. The bounded context sent to the language model contains clean evidence, not raw HTML trees.",
+    "start": 44.91950113378685,
+    "duration": 19.71832199546485,
+    "captions": [
+      {
+        "start": 0.44997732426303855,
+        "end": 2.8068027210884354,
+        "text": "The crawler discovers relevant company links."
+      },
+      {
+        "start": 2.9268027210884355,
+        "end": 8.453151927437641,
+        "text": "The cleaner removes scripts, styles, SVG elements, and navigation boilerplate."
+      },
+      {
+        "start": 8.573151927437642,
+        "end": 13.205532879818595,
+        "text": "It preserves readable text, public emails, and profile associations."
+      },
+      {
+        "start": 13.325532879818594,
+        "end": 18.89832199546485,
+        "text": "The bounded context sent to the language model contains clean evidence, not raw HTML trees."
+      }
+    ]
+  },
+  {
+    "id": "schema",
+    "title": "Strict structured outputs",
+    "narration": "Pydantic defines the required overview, target audience, contacts, leadership details, and confidence score. The overview must contain two sentences. Confidence is bounded from zero to one. The extractor checks the schema and verifies that reported entities have supporting evidence.",
+    "start": 64.6378231292517,
+    "duration": 18.150975056689344,
+    "captions": [
+      {
+        "start": 0.44997732426303855,
+        "end": 7.265034013605442,
+        "text": "Pydantic defines the required overview, target audience, contacts, leadership details, and confidence score."
+      },
+      {
+        "start": 7.385034013605442,
+        "end": 9.753469387755102,
+        "text": "The overview must contain two sentences."
+      },
+      {
+        "start": 9.873469387755103,
+        "end": 12.207074829931972,
+        "text": "Confidence is bounded from zero to one."
+      },
+      {
+        "start": 12.327074829931973,
+        "end": 17.330975056689343,
+        "text": "The extractor checks the schema and verifies that reported entities have supporting evidence."
+      }
+    ]
+  },
+  {
+    "id": "resilience",
+    "title": "Continue through failures",
+    "narration": "Each company has its own failure boundary. Missing pages, timeouts, bot blockers, and provider errors are recorded, with bounded retries where appropriate. The other companies can continue. I will remove the remaining waiting time and return to the finished output.",
+    "start": 82.78879818594105,
+    "duration": 16.223718820861677,
+    "captions": [
+      {
+        "start": 0.44997732426303855,
+        "end": 2.713922902494331,
+        "text": "Each company has its own failure boundary."
+      },
+      {
+        "start": 2.833922902494331,
+        "end": 9.730249433106575,
+        "text": "Missing pages, timeouts, bot blockers, and provider errors are recorded, with bounded retries where appropriate."
+      },
+      {
+        "start": 9.850249433106576,
+        "end": 11.556916099773243,
+        "text": "The other companies can continue."
+      },
+      {
+        "start": 11.676916099773242,
+        "end": 15.403718820861679,
+        "text": "I will remove the remaining waiting time and return to the finished output."
+      }
+    ]
+  },
+  {
+    "id": "postman",
+    "title": "Inspect the generated JSON",
+    "narration": "The pipeline has finished. This is the Postman record generated by the command just shown. It includes the company overview, audience, public emails, leadership details, and confidence. Source pages, crawl errors, and token usage are included for review.",
+    "start": 99.01251700680272,
+    "duration": 18.0,
+    "captions": [
+      {
+        "start": 0.44997732426303855,
+        "end": 1.8663945578231294,
+        "text": "The pipeline has finished."
+      },
+      {
+        "start": 1.9863945578231292,
+        "end": 5.364897959183674,
+        "text": "This is the Postman record generated by the command just shown."
+      },
+      {
+        "start": 5.484897959183673,
+        "end": 11.556916099773243,
+        "text": "It includes the company overview, audience, public emails, leadership details, and confidence."
+      },
+      {
+        "start": 11.676916099773242,
+        "end": 15.902947845804988,
+        "text": "Source pages, crawl errors, and token usage are included for review."
+      }
+    ]
+  },
+  {
+    "id": "coverage",
+    "title": "All three required targets",
+    "narration": "The combined JSON includes all three companies. Here are the Supabase and Vapi records. Information that the collected pages do not support is left empty. Confidence reflects evidence completeness, rather than guaranteeing every fact.",
+    "start": 117.01251700680272,
+    "duration": 14.540272108843537,
+    "captions": [
+      {
+        "start": 0.44997732426303855,
+        "end": 3.294421768707483,
+        "text": "The combined JSON includes all three companies."
+      },
+      {
+        "start": 3.414421768707483,
+        "end": 5.527437641723356,
+        "text": "Here are the Supabase and Vapi records."
+      },
+      {
+        "start": 5.647437641723356,
+        "end": 9.200090702947845,
+        "text": "Information that the collected pages do not support is left empty."
+      },
+      {
+        "start": 9.320090702947846,
+        "end": 13.720272108843538,
+        "text": "Confidence reflects evidence completeness, rather than guaranteeing every fact."
+      }
+    ]
+  },
+  {
+    "id": "validation",
+    "title": "Run artifact validation",
+    "narration": "I am now running the saved output verifier in the terminal. It checks the schema, two sentence summaries, entity evidence, page limits, and token totals. All three records pass. This validation does not make another language model call.",
+    "start": 131.55278911564625,
+    "duration": 18.0,
+    "captions": [
+      {
+        "start": 0.44997732426303855,
+        "end": 3.3989115646258505,
+        "text": "I am now running the saved output verifier in the terminal."
+      },
+      {
+        "start": 3.51891156462585,
+        "end": 9.40517006802721,
+        "text": "It checks the schema, two sentence summaries, entity evidence, page limits, and token totals."
+      },
+      {
+        "start": 9.525170068027212,
+        "end": 11.104126984126983,
+        "text": "All three records pass."
+      },
+      {
+        "start": 11.224126984126984,
+        "end": 14.393650793650794,
+        "text": "This validation does not make another language model call."
+      }
+    ]
+  },
+  {
+    "id": "finish",
+    "title": "Usage and submission files",
+    "narration": "The summary records actual token usage and estimated cost per domain. The zero dollar estimate uses the configured NVIDIA free tier rates. The repository includes modular code, dependencies, setup instructions, tests, sample output, and this screen recording. Thank you.",
+    "start": 149.55278911564625,
+    "duration": 17.965215419501135,
+    "captions": [
+      {
+        "start": 0.44997732426303855,
+        "end": 4.559909297052154,
+        "text": "The summary records actual token usage and estimated cost per domain."
+      },
+      {
+        "start": 4.679909297052154,
+        "end": 8.569251700680272,
+        "text": "The zero dollar estimate uses the configured NVIDIA free tier rates."
+      },
+      {
+        "start": 8.689251700680272,
+        "end": 16.31700680272109,
+        "text": "The repository includes modular code, dependencies, setup instructions, tests, sample output, and this screen recording."
+      },
+      {
+        "start": 16.43700680272109,
+        "end": 17.145215419501135,
+        "text": "Thank you."
+      }
+    ]
+  }
+]

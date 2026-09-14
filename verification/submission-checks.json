@@ -1,0 +1,21 @@
+{
+  "audit_date": "2026-09-14",
+  "mandatory_project_requirements": "passed",
+  "eligibility": "candidate self-confirmed; 2026 B.Tech Artificial Intelligence and Machine Learning",
+  "operations_answer": "Yes",
+  "tests": {
+    "passed": 67,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "dependency_check": "passed",
+  "root_sample_matches_verified_run": true,
+  "screen_run_complete": true,
+  "screen_duration_seconds": 167.52,
+  "screen_video_sha256": "4201e810efcb6213421eef19d839d424eea74d66d118c922be10f30f0310b173",
+  "input_tokens": 7770,
+  "output_tokens": 754,
+  "estimated_cost_usd": 0,
+  "application_code_changed": false
+}

@@ -1,0 +1,55 @@
+2026-09-14 20:20:06,979 INFO company_intel.crawler [postman.com] Fetch https://postman.com/ (1/8)
+2026-09-14 20:20:07,084 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/ (1/8)
+2026-09-14 20:20:07,096 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/ (1/8)
+2026-09-14 20:20:14,745 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/company (2/8)
+2026-09-14 20:20:16,326 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/: page JavaScript error: propensity is not defined
+2026-09-14 20:20:16,326 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/: page JavaScript error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpfu
+2026-09-14 20:20:16,409 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/sales (2/8)
+2026-09-14 20:20:18,913 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/careers (3/8)
+2026-09-14 20:20:20,664 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/sales: page JavaScript error: propensity is not defined
+2026-09-14 20:20:20,847 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/pricing (3/8)
+2026-09-14 20:20:21,991 WARNING company_intel.crawler [postman.com] https://postman.com/: networkidle timeout; used domcontentloaded fallback
+2026-09-14 20:20:23,617 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/about-postman (2/8)
+2026-09-14 20:20:26,262 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/contact/sales (4/8)
+2026-09-14 20:20:26,632 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/pricing: page JavaScript error: propensity is not defined
+2026-09-14 20:20:26,714 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/careers (4/8)
+2026-09-14 20:20:30,316 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/contact-us (5/8)
+2026-09-14 20:20:31,628 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/careers: page JavaScript error: propensity is not defined
+2026-09-14 20:20:31,707 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/about (5/8)
+2026-09-14 20:20:34,032 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/support (6/8)
+2026-09-14 20:20:35,229 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/about: HTTP error 404; skipped
+2026-09-14 20:20:35,302 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/about-us (6/8)
+2026-09-14 20:20:38,172 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/about (7/8)
+2026-09-14 20:20:38,524 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/about-us: HTTP error 404; skipped
+2026-09-14 20:20:38,605 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/company (7/8)
+2026-09-14 20:20:38,621 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/about-postman: networkidle timeout; used domcontentloaded fallback
+2026-09-14 20:20:39,347 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/press-media (3/8)
+2026-09-14 20:20:41,110 WARNING company_intel.crawler [supabase.com] https://supabase.com/about: HTTP error 404; skipped
+2026-09-14 20:20:41,183 INFO company_intel.crawler [supabase.com] Fetch https://supabase.com/about-us (8/8)
+2026-09-14 20:20:41,742 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/company: HTTP error 404; skipped
+2026-09-14 20:20:41,825 INFO company_intel.crawler [vapi.ai] Fetch https://vapi.ai/team (8/8)
+2026-09-14 20:20:43,841 WARNING company_intel.crawler [supabase.com] https://supabase.com/about-us: HTTP error 404; skipped
+2026-09-14 20:20:45,046 WARNING company_intel.crawler [vapi.ai] https://vapi.ai/team: HTTP error 404; skipped
+2026-09-14 20:20:48,915 INFO company_intel.pipeline [supabase.com] completed | pages=6 | input=2326 output=245 | $0.000000 | confidence=0.70
+2026-09-14 20:20:54,354 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/press-media: networkidle timeout; used domcontentloaded fallback
+2026-09-14 20:20:55,071 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/contact-sales (4/8)
+2026-09-14 20:20:55,551 INFO company_intel.pipeline [vapi.ai] completed | pages=4 | input=2684 output=144 | $0.000000 | confidence=0.60
+2026-09-14 20:21:10,085 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/contact-sales: networkidle timeout; used domcontentloaded fallback
+2026-09-14 20:21:10,909 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/careers (5/8)
+2026-09-14 20:21:25,924 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/careers: networkidle timeout; used domcontentloaded fallback
+2026-09-14 20:21:26,615 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/company/contact-us (6/8)
+2026-09-14 20:21:41,622 WARNING company_intel.crawler [postman.com] https://www.postman.com/company/contact-us: networkidle timeout; used domcontentloaded fallback
+2026-09-14 20:21:42,302 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/about (7/8)
+2026-09-14 20:21:57,318 WARNING company_intel.crawler [postman.com] https://www.postman.com/about: networkidle timeout; used domcontentloaded fallback
+2026-09-14 20:21:57,918 INFO company_intel.crawler [postman.com] Fetch https://www.postman.com/about-us (8/8)
+2026-09-14 20:22:12,924 WARNING company_intel.crawler [postman.com] https://www.postman.com/about-us: networkidle timeout; used domcontentloaded fallback
+2026-09-14 20:22:22,892 INFO company_intel.pipeline [postman.com] completed | pages=6 | input=2760 output=365 | $0.000000 | confidence=0.90
+2026-09-14 20:22:24,190 INFO company_intel.pipeline 
+| Domain | Status | Pages | Input tokens | Output tokens | Cost USD | Confidence |
+|---|---|---:|---:|---:|---:|---:|
+| postman.com | completed | 6 | 2760 | 365 | 0.000000 | 0.90 |
+| supabase.com | completed | 6 | 2326 | 245 | 0.000000 | 0.70 |
+| vapi.ai | completed | 4 | 2684 | 144 | 0.000000 | 0.60 |
+
+Total estimated LLM cost: $0.000000
+

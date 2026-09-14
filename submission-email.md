@@ -6,11 +6,13 @@ Hi team,
 
 Please find my submission for the Autonomous Lead Enrichment Agent assignment.
 
+**Eligibility:** I am from the 2026 B.Tech batch in Artificial Intelligence and Machine Learning and confirm that I meet your entry-level eligibility criteria.
+
 - **GitHub repository:** https://github.com/dhruvsingh895/SoftwareBrio_project
-- **Demonstration video:** [2:51 narrated MP4](https://github.com/dhruvsingh895/SoftwareBrio_project/blob/main/demo/company-intel-demo.mp4), with synthetic narration and rendered views of actual source and run artifacts.
+- **Screen recording:** [Project demonstration MP4](https://github.com/dhruvsingh895/SoftwareBrio_project/blob/main/demo/company-intel-screen-recording.mp4), showing the actual project files, CLI execution and generated output in a local browser workspace. It includes synthetic narration and omits idle waiting time.
 - **Sample output:** `output.json` attached, containing the live results for `postman.com`, `supabase.com`, and `vapi.ai`.
 
-The project includes modular Python code, pinned dependencies, and a README covering environment variables and local execution. It uses headless Playwright, cleaned page evidence, strict Pydantic-based LLM extraction, per-domain error handling, and token/cost tracking. The saved test report records 67 passing tests. The supplied live results used NVIDIA free-tier inference.
+The project includes modular Python code, pinned dependencies, and a README covering environment variables and local execution. It uses headless Playwright, cleaned page evidence, strict Pydantic-based LLM extraction, per-domain error handling, and token/cost tracking. The final audit reran all 67 tests successfully. The supplied live results used NVIDIA free-tier inference.
 
 **Operations screening question:**
 

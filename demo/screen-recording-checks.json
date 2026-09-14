@@ -1,0 +1,19 @@
+{
+  "video": "demo/company-intel-screen-recording.mp4",
+  "duration_seconds": 167.52,
+  "resolution": "1920x1080",
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "full_decode_passed": true,
+  "mean_volume_db": -16.7,
+  "peak_volume_db": -1.1,
+  "caption_cues": 37,
+  "run_directory": "output/screen-demo-final",
+  "run_complete": true,
+  "run_and_validation_exit_codes": [
+    0,
+    0
+  ],
+  "size_bytes": 15414917,
+  "sha256": "4201e810efcb6213421eef19d839d424eea74d66d118c922be10f30f0310b173"
+}

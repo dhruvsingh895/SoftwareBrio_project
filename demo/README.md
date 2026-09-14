@@ -1,6 +1,21 @@
 # Project demonstration
 
-[Watch or download the demonstration video](company-intel-demo.mp4).
+[Watch or download the screen recording](company-intel-screen-recording.mp4).
+
+The primary submission video is an actual Playwright capture of a local browser
+workspace reading project files, running the Python CLI as a subprocess and opening
+the resulting JSON. It is under three minutes, with synthetic narration and visible
+captions. The idle browser/API waiting interval is removed. The recorded CLI and
+artifact verifier both exit successfully; see [recording checks](screen-recording-checks.json)
+and [capture provenance](screen-recording-notes.json).
+
+Its [three-company output](../output/screen-demo-final/output.json) and complete
+[run evidence](../output/screen-demo-final/summary.json) are retained. The narration
+is available as [text](screen-recording-transcript.txt) and [subtitles](company-intel-screen-recording.srt).
+
+## Earlier explanatory walkthrough
+
+[The earlier edited demonstration](company-intel-demo.mp4) is retained as supplementary material.
 
 The MP4 runs for **2 minutes 51 seconds**, at **1920 × 1080** with H.264 video,
 AAC audio and 33 caption cues. Narration is synthetic, generated locally with Piper.
@@ -44,7 +59,7 @@ From the project root, validate the completed batch without a browser or API cal
 .\.venv\Scripts\python.exe verify_outputs.py output/video-demo-retry
 ```
 
-## Optional video regeneration on Windows
+## Optional regeneration of the earlier explanatory video on Windows
 
 The generation sources are in [`tools/demo/`](../tools/demo/). These are optional
 presentation tools; the enrichment application needs only the main project setup.
@@ -83,3 +98,28 @@ output directory differ. Follow the transcript and timeline to reproduce this MP
 
 Voice tooling: [Piper Python API](https://github.com/OHF-Voice/piper1-gpl/blob/main/docs/API_PYTHON.md)
 and [voice model card](https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/lessac/medium/MODEL_CARD).
+
+## Reproduce the actual screen recording
+
+After installing the main and optional video requirements and downloading the voice
+as described above, run these commands from the project root:
+
+```powershell
+.\.venv\Scripts\python.exe tools/demo/make_screen_narration.py
+.\.venv\Scripts\python.exe tools/demo/record_screen.py --run-name screen-demo-new
+.\.venv\Scripts\python.exe tools/demo/check_screen_recording.py
+```
+
+This recording command makes a new live crawl and NVIDIA free-tier extraction using
+the configured local credentials. Choose a new run name for each attempt; existing
+run artifacts are not overwritten. The source viewer and process console are served
+only on loopback during capture. They expose a fixed file allowlist and fixed run/
+verification actions; environment files cannot be viewed. The server closes after
+recording. Raw video, temporary clips, narration and screenshots remain Git-ignored
+under `.demo-work/screen/`. Only the edited MP4, subtitles, timing and verification
+metadata belong in the submission.
+
+The recorder checks that the live batch completed before narrating success. A failed
+attempt retains its records and must be retried with a new run name. It also checks
+the workspace viewport before starting the crawl. Check the resulting capture's
+readability before replacing a submitted video.

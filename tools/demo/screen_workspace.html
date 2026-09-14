@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Company Intel — local demo workspace</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0b1220;color:#e9f1ff;font:22px 'Segoe UI',sans-serif}
+header{height:78px;padding:15px 28px;border-bottom:1px solid #2a3c54;display:flex;align-items:center;gap:20px;background:#111e31}
+.logo{background:#66e4c7;color:#0b2420;border-radius:12px;padding:9px 12px;font-weight:800}header strong{font-size:25px}header small{color:#9baec6;font-size:18px}
+#status{margin-left:auto;color:#66e4c7;font:20px Consolas,monospace}#chapter{height:60px;padding:12px 30px;background:#15263a;color:#8cbeff;font-size:27px;font-weight:600}
+main{display:grid;grid-template-columns:310px 1fr;grid-template-rows:minmax(0,1fr);height:842px;min-height:0;overflow:hidden}aside{padding:20px 12px;border-right:1px solid #2a3c54;overflow:auto;background:#0e1928}
+aside h3{font-size:17px;color:#9baec6;margin:6px 14px 18px;letter-spacing:1px}aside button{display:block;width:100%;text-align:left;border:0;background:none;color:#b9cce5;padding:8px 12px;font:20px Consolas,monospace;border-radius:7px;cursor:pointer}
+aside button:hover,aside button.active{background:#233a53;color:#75ead1}section{display:flex;flex-direction:column;min-width:0;min-height:0;overflow:hidden}
+#filebar{height:47px;padding:10px 22px;background:#132237;color:#acc1db;font:20px Consolas,monospace;white-space:nowrap;overflow:hidden}
+#source{flex:1;min-height:0;overflow:auto;padding:14px 24px;background:#0c1727}pre{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;font:22px/1.47 Consolas,monospace;color:#dce8fa}.line{display:block;min-height:1.47em}.number{display:inline-block;color:#58718f;width:58px;user-select:none;font-size:19px}.key{color:#73e4cd}.keyword{color:#94bcff}
+#terminal{height:280px;min-height:180px;flex-shrink:0;border-top:2px solid #28405c;background:#080f19;display:flex;flex-direction:column}#terminalbar{height:51px;display:flex;align-items:center;gap:16px;padding:8px 18px;background:#111f30;color:#a5bdd8;font-size:18px}#terminalbar button{font:18px 'Segoe UI';padding:5px 14px;color:#122d29;background:#78e8cd;border:none;border-radius:5px;cursor:pointer}
+#terminalbar button:disabled{background:#375569;color:#8b9eaf}#command{color:#71e6c5;font:19px Consolas,monospace;flex:1}
+#console{overflow:auto;flex:1;padding:12px 22px;white-space:pre-wrap;font:21px/1.43 Consolas,monospace;color:#c6d6ec}.error{color:#fbc58e}
+body.terminal-focus #source{display:none}body.terminal-focus #terminal{height:auto;flex:1}body.terminal-focus #filebar{display:none}body.terminal-focus #console{font-size:23px}
+footer{height:100px;background:#070d16;border-top:1px solid #22364d;display:flex;align-items:center;justify-content:center;padding:10px 85px;color:#f0f5ff;text-align:center;font-size:24px;line-height:1.4}#progress{position:fixed;bottom:0;left:0;height:5px;background:#66e4c7}
+</style></head>
+<body>
+<header><span class="logo">CI</span><div><strong>COMPANY INTEL</strong><br><small>Local browser workspace · actual files and Python subprocess</small></div><span id="status">Ready</span></header>
+<div id="chapter">The working project · screen recording with synthetic narration</div>
+<main><aside><h3>PROJECT / PR</h3><div id="files"></div></aside><section>
+<div id="filebar">README.md</div><div id="source"><pre id="code"></pre></div>
+<div id="terminal"><div id="terminalbar"><span>POWERSHELL-STYLE PROCESS CONSOLE</span><button id="run" onclick="startRun()">Run pipeline</button><button id="verify" onclick="verifyRun()">Verify output</button><span id="command"></span></div><div id="console">Ready to execute the Python CLI.</div></div>
+</section></main><footer id="caption"></footer><div id="progress"></div>
+<script>
+const qs=s=>document.querySelector(s);let currentFile='',lastConsole='';
+const esc=x=>x.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+async function showFile(path,line=1){const r=await fetch('/api/file?path='+encodeURIComponent(path));const o=await r.json();if(!r.ok)throw Error(o.error);currentFile=path;qs('#filebar').textContent=path;qs('#code').innerHTML=o.text.split('\n').map((s,i)=>'<span class="line" id="line-'+(i+1)+'"><span class="number">'+(i+1)+'</span>'+esc(s)+'</span>').join('');document.querySelectorAll('aside button').forEach(b=>b.classList.toggle('active',b.dataset.path===path));qs('#source').scrollTop=(line-1)*32.34;}
+function terminalFocus(on){document.body.classList.toggle('terminal-focus',on)}
+async function act(action){const r=await fetch('/api/action',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action})});const o=await r.json();if(!r.ok)throw Error(o.error);return o}
+async function startRun(){qs('#run').disabled=true;await act('run');await refresh()}
+async function verifyRun(){qs('#verify').disabled=true;await act('verify');await refresh()}
+async function refresh(){const r=await fetch('/api/status');const s=await r.json();qs('#status').textContent=s.status;qs('#command').textContent=s.active_command?'Python process running':'';if(s.console!==lastConsole){qs('#console').textContent=s.console;qs('#console').scrollTop=qs('#console').scrollHeight;lastConsole=s.console}qs('#run').disabled=s.run_started;qs('#verify').disabled=!s.run_complete||s.verify_started;window.processState=s;}
+function narration(title,text,progress){qs('#chapter').textContent=title;qs('#caption').textContent=text;qs('#progress').style.width=(progress*100)+'%'}
+async function init(){const f=await(await fetch('/api/files')).json();for(const path of f){const b=document.createElement('button');b.dataset.path=path;b.textContent=path.startsWith('company_intel/')?'  '+path.split('/')[1]:path.startsWith('output/')?'  '+path.split('/').slice(-1)[0]:path;b.onclick=()=>showFile(path).catch(console.error);qs('#files').appendChild(b)}await showFile('README.md');await refresh();window.ready=true;setInterval(refresh,300)}init();
+</script></body></html>

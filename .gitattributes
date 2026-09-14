@@ -10,3 +10,4 @@
 # Preserve captured evidence bytes and their recorded hashes.
 output/video-demo/** -text -whitespace
 output/video-demo-retry/** -text -whitespace
+output/screen-demo-final/** -text -whitespace

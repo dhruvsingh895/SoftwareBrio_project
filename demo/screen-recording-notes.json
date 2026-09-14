@@ -1,0 +1,62 @@
+{
+  "captured_at": "2026-09-14T14:53:35.700798+00:00",
+  "raw_video": "C:\\Users\\2k22a\\OneDrive\\Desktop\\pr\\.demo-work\\screen\\raw\\page@00ca9f35a35f53bec7df940afae235fa.webm",
+  "segments": [
+    {
+      "id": "intro",
+      "source_start": 1.3031695999961812,
+      "duration": 14.0
+    },
+    {
+      "id": "structure",
+      "source_start": 15.495830200001365,
+      "duration": 14.919501133786849
+    },
+    {
+      "id": "run",
+      "source_start": 30.525659200007794,
+      "duration": 16.0
+    },
+    {
+      "id": "clean",
+      "source_start": 46.61729379999451,
+      "duration": 19.71832199546485
+    },
+    {
+      "id": "schema",
+      "source_start": 66.48333529999945,
+      "duration": 18.150975056689344
+    },
+    {
+      "id": "resilience",
+      "source_start": 84.79125539999222,
+      "duration": 16.223718820861677
+    },
+    {
+      "id": "postman",
+      "source_start": 171.6038327999995,
+      "duration": 18.0
+    },
+    {
+      "id": "coverage",
+      "source_start": 189.6969989000063,
+      "duration": 14.540272108843537
+    },
+    {
+      "id": "validation",
+      "source_start": 204.4128206000023,
+      "duration": 18.0
+    },
+    {
+      "id": "finish",
+      "source_start": 222.56651679999777,
+      "duration": 17.965215419501135
+    }
+  ],
+  "duration_seconds": 167.51800453514738,
+  "run_directory": "output/screen-demo-final",
+  "run_exit_code": 0,
+  "validation_exit_code": 0,
+  "capture_method": "Playwright browser video of a local workspace with real files and subprocess stdout",
+  "editing": "Idle waiting interval removed; scene order retained; synthetic narration added"
+}

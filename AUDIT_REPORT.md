@@ -1,55 +1,77 @@
-# Assignment audit — 2026-09-14
+# Final assignment audit — 2026-09-14
 
-**Verdict: the technical assignment requirements are implemented and pass the checks below.** The project was
-corrected and rebuilt as version 1.1.1. The submitter is recording Loom separately, as requested; no video or
-hosted link is claimed. This is a requirements audit, not an official rubric score or a guarantee of perfect
-extraction across arbitrary websites.
+**Verdict: the requested project implementation and submission deliverables are complete and pass the checks below.**
+Eligibility is recorded from the candidate's explicit confirmation. This audit verifies the assignment
+and the observed runs; it does not assign an employer's rubric score or promise complete data from every website.
 
-| Requirement / rubric area | Status | Implementation and verification evidence |
-|---|---|---|
-| Domain-list input and three targets | Pass | CLI array/JSON input; postman.com, supabase.com and vapi.ai all completed in live `output/summary.json`. |
-| Architecture / scraping — 30% | Pass | Async headless Playwright, separate contexts, concurrent domains, homepage-first browsing, ranked links refreshed after each page, heuristic paths, bounded page-number pagination and eight attempted URLs maximum. `crawler.py`, `urls.py`, crawl evidence and browser tests. |
-| JavaScript-rendered content | Pass | Browser rendering, bounded waits and DOMContentLoaded fallback; Chromium fixtures populate content asynchronously with JavaScript. All live targets rendered successfully. |
-| Preprocessing / token optimization | Pass | lxml sanitization, trafilatura text, boilerplate/code removal, testimonial/investor exclusion, DOM profile cards, paragraph deduplication and balanced budgeting. Exact clean evidence is saved in `context.txt`; no raw HTML tree is sent. |
-| LLM / structured output — 25% | Pass | Strict Pydantic-derived function schema, forced extraction tool, local strict validation, exact two-sentence overview, ICP, public emails, names/roles, associated LinkedIn URLs and bounded confidence. Repair-call usage remains counted. |
-| Error handling / resilience — 20% | Pass | HTTP/soft 404s, bot blockers, missing text, timeouts, API retries/Retry-After, robots/scope checks, domain exception boundaries and atomic records. A complete batch fixture puts a blocked domain between successful companies. |
-| Code / documentation — 15% | Pass | Separate typed modules, pinned dependencies, setup/CLI/limitations documentation, 67 passing tests, repeatable output verification, installed wheel and console command. |
-| Loom walkthrough — 10% | Submitter-owned | Excluded from this implementation task at the submitter's request. Record the completed project and live outputs separately. |
-| Optional search | Implemented; live availability limited | Free DuckDuckGo HTML lookup, unique name/company matching and audit records for every outcome. Live Supabase lookup was bot-blocked; success/ambiguity/failure behavior is fixture-tested. |
-| Optional agentic navigation | Pass | Bounded custom LLM tool loop with `list_links` / `fetch_page`, verified in a live Postman run. Actual tools/results and usage saved in `output-agentic/`. |
-| Optional token/cost tracking | Pass | Actual provider usage, per-domain ledger and combined tables, including navigation and repairs. Final runs use only NVIDIA free-tier inference; $0 estimated API cost. |
+## Requirement-by-requirement result
 
-## Defects corrected
+| Requirement | Result | Evidence |
+| --- | --- | --- |
+| Entry-level eligibility | Confirmed by candidate | User confirmed eligibility and the 2026 B.Tech Artificial Intelligence and Machine Learning batch. Recorded in `submission-email.md`. |
+| 40% manual operations screening answer | Complete | User's explicit **Yes** appears beside the full screening question in `submission-email.md`. |
+| Python pipeline taking a list of domains | Pass | `domains.json`, CLI `--domains` and `--domains-file`; the exact three required targets were run again for the screen recording. |
+| Homepage and relevant subpage discovery | Pass | `crawler.py` / `urls.py`: homepage first, refreshed ranked links, heuristic about/team/company/contact/pricing paths and bounded pagination. |
+| JavaScript-rendered content | Pass | Headless Playwright Chromium; live site rendering and real-browser JavaScript fixtures in the 67-test suite. |
+| Clean context instead of raw HTML trees | Pass | `cleaner.py`: lxml/trafilatura cleaning, script/style/SVG/navigation removal, text deduplication, contact/profile evidence and bounded context. Captured `context.txt` files validate. |
+| Strict LLM extraction | Pass | Pydantic-derived forced function schema, local strict validation and evidence checks in `schema.py` / `extractor.py`. |
+| Exactly two-sentence company overview | Pass | Extraction validation and saved-output verification for all three recorded companies. |
+| Target audience / ICP | Pass | Required `target_audience` field populated in the recorded outputs. |
+| Public email contacts | Pass | Literal site-supported contacts in `contact_points`; unsupported values are removed. |
+| Leadership names, roles and discoverable LinkedIn URLs | Pass | Required leadership schema, nearby name/role evidence and DOM profile associations. Postman has three supported founder profiles. Missing information remains empty/null. |
+| Confidence between 0.0 and 1.0 | Pass | Pydantic bounds, finite values and evidence-completeness ceiling. |
+| 404s, bot blockers, timeouts and missing elements | Pass | Per-page error handling, bounded retries/fallback waits and recorded live errors; browser fixtures exercise missing/blocked pages. |
+| One failed company must not stop the batch | Pass | Per-domain exception boundaries and artifact persistence; mixed-success full-batch fixture and the real earlier HTTP-500 attempt in `output/video-demo/`. |
+| GitHub repository with modular code | Complete | [Repository](https://github.com/dhruvsingh895/SoftwareBrio_project), package modules, tests and documentation. |
+| Dependency file | Complete | Pinned `requirements.txt`, `requirements-dev.txt` and installable `pyproject.toml`. |
+| README for environment variables and local execution | Complete | `.env.example`, setup commands, required API variable, browser installation, CLI examples and practical limits. The real `.env` is Git-ignored. |
+| Sample output for the three domains | Complete | Root `output.json` matches the original verified three-company run; the new recording's output is `output/screen-demo-final/output.json`. |
+| 2–3 minute screen recording | Complete | `demo/company-intel-screen-recording.mp4`: 167.52 seconds, 1920×1080, real browser screen capture of project files, Python CLI execution and resulting JSON; synthetic narration and captions. Only the idle wait is removed. |
 
-1. Flat LinkedIn signal lists lost person/profile associations. Small DOM profile cards now retain subject
-   headings and URLs; mismatched profiles are rejected. Postman's three published founder profiles are present.
-2. Repeated tail truncation discarded useful later-page evidence. Complete signal headers are retained, with
-   remaining body space distributed across pages before provider budget checks.
-3. Discovery used one initial queue and rejected every query. Candidates now refresh after each fetch, preserve
-   stronger anchor descriptions, prefer default-language pages, and permit bounded `page=1..20` pagination.
-4. A sales testimonial author was misclassified as leadership after text extraction lost the external employer.
-   Attributed quotations and explicit investor/testimonial containers are filtered before extraction; removed
-   sections stay in the audit files. A regression test covers this observed failure.
-5. Search recorded only successes and could accept the first of multiple plausible profiles. Every attempt now
-   records status/candidates; multiple matching profiles remain null. Search challenges and soft 404s are detected.
-6. API backoff ignored Retry-After. Seconds/date headers are now honored; requested waits over 60 seconds fail
-   that domain rather than causing an early retry or an unbounded delay.
-7. Packaging lacked an installed command. `python main.py`, `python -m company_intel` and installed
-   `company-intel` now work. The version 1.1.1 wheel was built and installed successfully.
+## Optional features
 
-## Final checks and practical limits
+| Feature | Result | Evidence / limit |
+| --- | --- | --- |
+| Search for missing LinkedIn URLs | Implemented | DuckDuckGo HTML lookup with name/company matching, ambiguity checks and audit logs. Live search may be blocked; it does not bypass challenges. Success/failure/ambiguity behavior is fixture-tested. |
+| Dynamic agent navigation | Implemented and verified | Custom bounded `list_links` / `fetch_page` loop; saved live run in `output-agentic/`. The main recording uses deterministic discovery. |
+| Token and cost tracking | Pass | Actual response usage, including repair/navigation calls, with per-domain and aggregate estimates. The recorded run used NVIDIA free-tier-only mode with $0 configured rates. |
 
-- Submission update: root `output.json` contains the three unchanged records from the 2026-09-13 live run.
-  Future runs write the combined array to `<output-dir>/output.json`; this export is regression-tested.
+## Final verification
 
-- **67 tests passed**, including real Chromium and a complete mixed-success batch through rendering,
-  the NVIDIA adapter, extraction and artifact writing.
-- All three live target records and the agentic record pass `python verify_outputs.py`.
-- The wheel's application files match the reviewed source; `pip check` found no broken requirements.
-- Postman has source-associated founder profiles. Supabase's general counsel has no verified LinkedIn match;
-  Vapi's leadership remains empty because the collected pages did not support it. These are evidence limitations.
-- Python 3.14.2/Windows was exercised; Python 3.11+ is the declared target. Other OS/Python versions were not run here.
-- Confidence measures evidence coverage, not calibrated truth. DOM/sentence heuristics have limits; websites and
-  search providers can change or block access. Operational limitations are documented in the README.
+- **67 tests passed**, with no failures, errors or skips. Fresh report: `verification/tests-latest.xml`.
+- `pip check` passed with no broken requirements.
+- Original three-company output, optional agentic output and previous demo output all revalidated.
+- Fresh recorded batch and saved-output verifier both exited with code **0**.
+- New run's schema, two-sentence overview, literal entity evidence, profile associations, page caps and token totals pass: `verification/screen-output-checks.json`.
+- MP4 fully decodes with H.264/AAC, has 37 caption cues and passes audio-level/duration checks: `demo/screen-recording-checks.json`.
+- Source/output files were visually inspected in the final encoded video. The demo workspace prevents `.env` access and checks its viewport before starting a run.
+- The original v1.1.1 application code and previously built wheel are unchanged by this final audit. New code is confined to optional recording tools.
 
-For submission, use the source ZIP, `RUN_REPORT.md`, the three JSON records, and your own walkthrough recording.
+### Run shown in the submitted screen recording
+
+| Domain | Status | Pages | Input tokens | Output tokens | Confidence |
+| --- | --- | ---: | ---: | ---: | ---: |
+| postman.com | completed | 6 | 2760 | 365 | 0.90 |
+| supabase.com | completed | 6 | 2326 | 245 | 0.70 |
+| vapi.ai | completed | 4 | 2684 | 144 | 0.60 |
+
+Total: **7,770 input tokens**, **754 output tokens**, **$0 estimated API cost**.
+The estimate uses configured NVIDIA free-tier rates; it is not an unlimited-quota or production-hosting claim.
+
+## Gaps resolved in this final pass
+
+1. Added the candidate's eligibility confirmation to the submission draft while retaining the explicit operations answer.
+2. Replaced the primary submission link with an actual screen recording. The earlier rendered explanatory video remains supplementary.
+3. Corrected stale audit text that said no video existed and refreshed the README's demo and latest-output links.
+4. Fixed scrolling and viewport containment in the optional recording workspace, then retook the video and validated the real run again.
+
+## Files to submit
+
+- Repository: [SoftwareBrio_project](https://github.com/dhruvsingh895/SoftwareBrio_project)
+- Sample: [`output.json`](output.json)
+- Recording: [`demo/company-intel-screen-recording.mp4`](demo/company-intel-screen-recording.mp4)
+- Email/form wording: [`submission-email.md`](submission-email.md), including eligibility and **Yes** to manual operations.
+
+Public-site coverage remains evidence-limited: Vapi's collected pages did not support leadership names,
+and Supabase's optional profile search was blocked. Those missing values are retained. Python 3.14.2 on
+Windows was exercised; other operating systems/Python versions were not newly tested in this audit.
